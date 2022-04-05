@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Clickable : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public Text scoreText;
-    public int score;
+    private int score;
 
     public void Score()
     {
