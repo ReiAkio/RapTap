@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Comprar Buff Itens dentro de um Botão
@@ -17,13 +18,14 @@ public class BuyingVisualItem : MonoBehaviour
     }
     
     /// <summary>
-    /// Somente subtrai o valor do click 
+    /// Somente subtrai o valor do click e muda a cor para cinza
     /// </summary>
     public void BuyProduct(){
         if (click.getScore() >= visualItem.cost && aux == true)
         {
             click.RemoveScore(visualItem.cost);
             aux = false;
+            this.gameObject.GetComponent<Image>().color = Color.grey;
         }
     }
     
