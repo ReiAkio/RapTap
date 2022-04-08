@@ -1,8 +1,9 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Comprar Buff Itens dentro de um Botão
+/// </summary>
 public class BuyingBuffItem : MonoBehaviour
 {
     public Clickable click;
@@ -15,6 +16,9 @@ public class BuyingBuffItem : MonoBehaviour
         aux = true;
     }
 
+    /// <summary>
+    /// Somente subtrai o valor do click 
+    /// </summary>
     public void BuyProduct(){
         if (click.getScore() >= buffItem.cost && aux == true)
         {
@@ -24,6 +28,10 @@ public class BuyingBuffItem : MonoBehaviour
         }
     }
     
+    /// <summary>
+    /// Get lista de buff
+    /// </summary>
+    /// <returns></returns>
     public List<BuffItem> GetBuffItemList()
     {
         return BuffItemList;
