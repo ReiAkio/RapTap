@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c545ebb7e03fdb46b3d6bfe05e4e8fd, type: 3}
-  m_Name: Test3
+  m_Script: {fileID: 11500000, guid: 481f19e87d402594198600401b691d07, type: 3}
+  m_Name: imagetest
   m_EditorClassIdentifier: 
-  dialogue:
-  - Teste6Teste6Teste6
-  - "Teste7Teste7Teste7\t"
-  - Teste8Teste8Teste8Teste8
-  - Teste9Teste9Teste9Teste9Teste9
+  dialogueImage:
+  - {fileID: 21300000, guid: d35f0e270fd23a44ab06ee54b5e7ff55, type: 3}
+  - {fileID: 21300000, guid: 73b2e72f93d3c7a42bfd990eb4197b9d, type: 3}

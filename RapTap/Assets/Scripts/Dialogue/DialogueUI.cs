@@ -39,7 +39,7 @@ public class DialogueUI : MonoBehaviour
     }
 
 
-    public IEnumerator ShowDialogue(DialogueObject[] dialogueObjectList)
+    private IEnumerator ShowDialogue(DialogueObject[] dialogueObjectList)
     {
         foreach (DialogueObject dialogueObject in dialogueObjectList)
         {
