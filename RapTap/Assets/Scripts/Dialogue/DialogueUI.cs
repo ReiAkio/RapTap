@@ -13,6 +13,9 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private DialogueImageObject testImage;
     [SerializeField] private DialogueObject[] testDialogue;
     [SerializeField] private string nextScene;
+    [SerializeField] private GameObject fadeImage;
+    [SerializeField] private float fadeTime;
+
 
 
 
@@ -30,20 +33,32 @@ public class DialogueUI : MonoBehaviour
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
-        CloseDialogue(); 
-        ShowDialogue(testDialogue[i]);
+        dialogueBox.SetActive(true);
+        textLabel.text = string.Empty;
+        StartCoroutine(ShowDialogue(testDialogue));
     }
 
 
-    public void ShowDialogue(DialogueObject dialogueObject)
+    public IEnumerator ShowDialogue(DialogueObject[] dialogueObjectList)
     {
-        dialogueBox.SetActive(true);
-        ChangeImage(dialogueImage, testImage.DialogueImage);
-        StartCoroutine(StepThroughDialogue(dialogueObject));
+        foreach (DialogueObject dialogueObject in dialogueObjectList)
+        {
+            ChangeImage(dialogueImage, testImage.DialogueImage);
+            yield return Fade(fadeImage, true, fadeTime);
+            i++;
+            yield return RunDialogue(dialogueObject);
+            yield return Fade(fadeImage, false, fadeTime);
+        }
+        SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+    }
+
+    private Coroutine RunDialogue(DialogueObject dialogueObject)
+    {
+        return StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
-    {
+    {        
         foreach (string dialogue in dialogueObject.Dialogue)
         {
             yield return typewriterEffect.Run(dialogue, textLabel);
@@ -52,18 +67,8 @@ public class DialogueUI : MonoBehaviour
             {
                 yield return null;
             }
+            textLabel.text = string.Empty;
         }
-        if (i != testDialogue.Length -1)
-        {
-            i++;
-            ShowDialogue(testDialogue[i]);
-        }
-        else
-        {
-            CloseDialogue();
-            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-        }
-        
     }
 
     private void ChangeImage(GameObject dialogueImage, Sprite[] imageFromList)
@@ -71,9 +76,29 @@ public class DialogueUI : MonoBehaviour
         dialogueImage.GetComponent<Image>().sprite = imageFromList[i];
     }
 
-    private void CloseDialogue()
+    private IEnumerator FadeImage(GameObject Image, bool fadeInOut, float time) // true = fade in, false = fade out
     {
-        dialogueBox.SetActive(false);
-        textLabel.text = string.Empty;
+        if (fadeInOut)
+        {
+            for (float i = time; i >= 0; i -= Time.deltaTime)
+            {
+                Image.GetComponent<Image>().color = new Color(0, 0, 0, i);
+                yield return null;
+            }
+        }
+        else
+        {
+            for (float i = 0; i <= time; i += Time.deltaTime)
+            {
+                Image.GetComponent<Image>().color = new Color(0, 0, 0, i);
+                yield return null;
+            }
+        }
     }
+
+    public Coroutine Fade(GameObject Image, bool fadeInOut, float time)
+    {
+        return StartCoroutine(FadeImage(Image, fadeInOut, time));
+    }
+
 }
