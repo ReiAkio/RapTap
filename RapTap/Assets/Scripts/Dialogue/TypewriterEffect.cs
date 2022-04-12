@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEngine.EventSystems;
 using UnityEngine;
 using TMPro;
 
@@ -30,5 +31,7 @@ public class TypewriterEffect : MonoBehaviour
         }
         textLabel.text = textToType;
     }
+
+
 
 }

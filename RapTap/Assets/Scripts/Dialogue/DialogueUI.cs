@@ -1,20 +1,28 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueBox;
     [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private DialogueObject testDialogue;
+    [SerializeField] private GameObject dialogueImage;
+    [SerializeField] private DialogueImageObject testImage;
+
+    [SerializeField] private DialogueObject[] testDialogue;
+    
+
+
 
     private TypewriterEffect typewriterEffect;
 
     private bool click = false;
 
-    
+    private int i = 0;
 
+    private GameObject image;
     public void OnClick()
     {
         click = true;
@@ -23,15 +31,15 @@ public class DialogueUI : MonoBehaviour
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
-        CloseDialogue();
-        ShowDialogue(testDialogue);
+        //CloseDialogue(); Fecha a Caixa de dialogo
+        ShowDialogue(testDialogue[i]);
     }
 
-    
 
     public void ShowDialogue(DialogueObject dialogueObject)
     {
         dialogueBox.SetActive(true);
+        ChangeImage(dialogueImage, testImage.DialogueImage);
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
@@ -45,8 +53,24 @@ public class DialogueUI : MonoBehaviour
             {
                 yield return null;
             }
+            
         }
-        CloseDialogue();
+        if (i != testDialogue.Length -1)
+        {
+            i++;
+            ShowDialogue(testDialogue[i]);
+        }
+        //CloseDialogue();
+    }
+
+    private void ChangeImage(GameObject dialogueImage, Sprite[] imageFromList)
+    {
+        dialogueImage.GetComponent<Image>().sprite = imageFromList[i];
+    }
+
+    private void EndScene()
+    {
+
     }
 
     private void CloseDialogue()
