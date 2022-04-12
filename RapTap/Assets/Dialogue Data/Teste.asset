@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Teste
   m_EditorClassIdentifier: 
   dialogue:
-  - Lorem ipsum dolor sit amet,
-  - consectetur adipiscing elit,
-  - sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - teste1teste1teste1
+  - teste2teste2teste2
+  - teste3teste3teste3
