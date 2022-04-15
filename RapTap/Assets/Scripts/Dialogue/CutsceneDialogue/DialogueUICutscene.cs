@@ -5,45 +5,33 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class DialogueUI : MonoBehaviour
-{
-    [SerializeField] private GameObject dialogueBox;
-    [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private GameObject dialogueImage;
-    [SerializeField] private DialogueImageObject testImage;
-    [SerializeField] private DialogueObject[] testDialogue;
-    [SerializeField] private string nextScene;
-    [SerializeField] private GameObject fadeImage;
+public class DialogueUICutscene : MonoBehaviour
+{      
+    [SerializeField] private TMP_Text textLabel;             
+    [SerializeField] private GameObject dialogueImage;       
+    [SerializeField] private DialogueImageObject imageList;  
+    [SerializeField] private DialogueListObject Dialogues;  
+    [SerializeField] private string nextScene;               
+    [SerializeField] private GameObject fadeImage;           
     [SerializeField] private float fadeTime;
-
-
-
-
+    
     private TypewriterEffect typewriterEffect;
-
     private bool click = false;
-
     private int i = 0;
 
-    public void OnClick()
-    {
-        click = true;
-    }
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
-        dialogueBox.SetActive(true);
         textLabel.text = string.Empty;
-        StartCoroutine(ShowDialogue(testDialogue));
+        StartCoroutine(ShowDialogue(Dialogues.DialogueList));
     }
-
 
     private IEnumerator ShowDialogue(DialogueObject[] dialogueObjectList)
     {
         foreach (DialogueObject dialogueObject in dialogueObjectList)
         {
-            ChangeImage(dialogueImage, testImage.DialogueImage);
+            ChangeImage(dialogueImage, imageList.DialogueImage);
             yield return Fade(fadeImage, true, fadeTime);
             i++;
             yield return RunDialogue(dialogueObject);
@@ -82,7 +70,7 @@ public class DialogueUI : MonoBehaviour
         {
             for (float i = time; i >= 0; i -= Time.deltaTime)
             {
-                Image.GetComponent<Image>().color = new Color(0, 0, 0, i);
+                Image.GetComponent<Image>().color = new Color(0, 0, 0, i/time);
                 yield return null;
             }
         }
@@ -90,15 +78,19 @@ public class DialogueUI : MonoBehaviour
         {
             for (float i = 0; i <= time; i += Time.deltaTime)
             {
-                Image.GetComponent<Image>().color = new Color(0, 0, 0, i);
+                Image.GetComponent<Image>().color = new Color(0, 0, 0, i/time);
                 yield return null;
             }
         }
     }
 
-    public Coroutine Fade(GameObject Image, bool fadeInOut, float time)
+    private Coroutine Fade(GameObject Image, bool fadeInOut, float time)
     {
         return StartCoroutine(FadeImage(Image, fadeInOut, time));
     }
 
+    public void OnClick()
+    {
+        click = true;
+    }
 }

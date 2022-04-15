@@ -575,15 +575,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0edffafd89258a3458d33d0cc42778d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueBox: {fileID: 1823502347}
   textLabel: {fileID: 1613416345}
   dialogueImage: {fileID: 1823502347}
-  testImage: {fileID: 11400000, guid: e20450af5b709cd469e48c85b0cee7e5, type: 2}
-  testDialogue:
-  - {fileID: 11400000, guid: 025333f63687fa745bf2faad01c0d911, type: 2}
-  - {fileID: 11400000, guid: 439e987daf095c54886703c74bec7a42, type: 2}
-  - {fileID: 11400000, guid: 2b4f465fe38bbee469983ab081702479, type: 2}
-  nextScene: CutsceneTest2
+  imageList: {fileID: 11400000, guid: e20450af5b709cd469e48c85b0cee7e5, type: 2}
+  Dialogues: {fileID: 11400000, guid: 2d29a83403c521441a42dc62933f2605, type: 2}
+  nextScene: SampleScene
   fadeImage: {fileID: 2021682027}
   fadeTime: 0.5
 --- !u!114 &1823502351

@@ -1,7 +1,9 @@
 using System.Collections;
-using UnityEngine.EventSystems;
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
+
+
 
 public class TypewriterEffect : MonoBehaviour
 {
@@ -10,8 +12,43 @@ public class TypewriterEffect : MonoBehaviour
     [SerializeField] private float wait = 2f;
     [SerializeField] private float skipSpeedMultiplier;
 
+
     private bool isRunning = false;
     private bool skip = false;
+
+    private readonly struct Punctuation
+    {
+        public readonly HashSet<char> Punctuations;
+        public readonly float WaitTime;
+
+
+        public Punctuation(HashSet<char> punctuations, float waitTime)
+        {
+            Punctuations = punctuations;
+            WaitTime = waitTime;
+        }
+    }
+
+    private bool IsPunctuation(char character, out float waitTime)
+    {
+        foreach (Punctuation punctuationCategory in punctuations)
+        {
+            if (punctuationCategory.Punctuations.Contains(character))
+            {
+                waitTime = punctuationCategory.WaitTime;
+                return true;
+            }
+        }
+
+        waitTime = default;
+        return false;
+    }
+
+    private readonly List<Punctuation> punctuations = new List<Punctuation>()
+    {
+        new Punctuation(new HashSet<char>(){'.', '!', '?'}, 0.6f),
+        new Punctuation(new HashSet<char>(){',', ';', ':'}, 0.3f)
+    };
 
     public Coroutine Run(string textToType, TMP_Text textLabel)
     {
@@ -29,17 +66,15 @@ public class TypewriterEffect : MonoBehaviour
         isRunning = true;
         while (charIndex < textToType.Length)
         {
+            int lastCharIndex = charIndex;
             if (skip)
-            { 
+            {
                 t += Time.deltaTime * textSpeed * skipSpeedMultiplier;
                 charIndex = Mathf.FloorToInt(t);
-                if(charIndex > textToType.Length)
+                charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
+                for (int i = lastCharIndex; i < charIndex; i++)
                 {
-                    textLabel.text = textToType;
-                }
-                else
-                {
-                    textLabel.text = textToType.Substring(0, charIndex);
+                    textLabel.text = textToType.Substring(0, i + 1);
                 }
                 yield return null;
             }
@@ -47,13 +82,17 @@ public class TypewriterEffect : MonoBehaviour
             {
                 t += Time.deltaTime * textSpeed;
                 charIndex = Mathf.FloorToInt(t);
-                if (charIndex > textToType.Length)
+                charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);
+                for (int i = lastCharIndex; i < charIndex; i++)
                 {
-                    textLabel.text = textToType;
-                }
-                else
-                {
-                    textLabel.text = textToType.Substring(0, charIndex);
+                    bool isLast = i >= textToType.Length - 1;
+
+                    textLabel.text = textToType.Substring(0, i + 1);
+
+                    if (IsPunctuation(textToType[i], out float waitTime) && !isLast && !IsPunctuation(textToType[i + 1], out _))
+                    {
+                        yield return new WaitForSeconds(waitTime);
+                    }
                 }
                 yield return null;
             }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: text1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'teste cutscene2 1 teste cutscene2 1 teste cutscene2 1 teste cutscene2 1 '
+  - '! ! teste? teste, teste'
   - ' teste cutscene2 2  teste cutscene2 2  teste cutscene2 2  teste cutscene2 2 
     teste cutscene2 2 '
   - 'teste cutscene2 3 teste cutscene2 3 teste cutscene2 3 teste cutscene2 3 teste

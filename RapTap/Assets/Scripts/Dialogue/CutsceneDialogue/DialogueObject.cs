@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Dialogue/DialogueList")]
+[CreateAssetMenu(menuName = "Dialogue/DialogueText")]
 
 public class DialogueObject : ScriptableObject
 {

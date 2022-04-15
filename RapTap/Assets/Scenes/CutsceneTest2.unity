@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 580633925}
   - component: {fileID: 580633924}
   m_Layer: 5
-  m_Name: Button
+  m_Name: DialogueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,8 +395,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textSpeed: 20.3
-  wait: 0.2
-  skipSpeedMultiplier: 50
+  wait: 1
+  skipSpeedMultiplier: 10
 --- !u!114 &580633925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,16 +409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0edffafd89258a3458d33d0cc42778d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueBox: {fileID: 580633922}
   textLabel: {fileID: 348520255}
   dialogueImage: {fileID: 580633922}
-  testImage: {fileID: 11400000, guid: ab4549841be81024ea96f44597331462, type: 2}
-  testDialogue:
-  - {fileID: 11400000, guid: 676279434fc3c22438bc3d99ac48e2fb, type: 2}
-  - {fileID: 11400000, guid: e8e441c5316480448a0db70e30578614, type: 2}
+  imageList: {fileID: 11400000, guid: ab4549841be81024ea96f44597331462, type: 2}
+  Dialogues: {fileID: 11400000, guid: 60b481c28475b6549b277068d1dcfac1, type: 2}
   nextScene: CutsceneExample
   fadeImage: {fileID: 894252532}
-  fadeTime: 0.2
+  fadeTime: 3
 --- !u!114 &580633926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,7 +534,7 @@ GameObject:
   - component: {fileID: 894252535}
   - component: {fileID: 894252534}
   m_Layer: 5
-  m_Name: Image
+  m_Name: FadeImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -613,7 +610,7 @@ GameObject:
   - component: {fileID: 1155424636}
   - component: {fileID: 1155424635}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Cutscene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
