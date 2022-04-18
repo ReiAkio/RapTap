@@ -504,9 +504,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 423079815}
-        m_TargetAssemblyTypeName: ExitButtonSystem, Assembly-CSharp
-        m_MethodName: ExitButton
+      - m_Target: {fileID: 417774857}
+        m_TargetAssemblyTypeName: MarketImage, Assembly-CSharp
+        m_MethodName: SetActiveFalse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -987,9 +987,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1027000669}
-        m_TargetAssemblyTypeName: ExitButtonSystem, Assembly-CSharp
-        m_MethodName: ExitButton
+      - m_Target: {fileID: 820921513}
+        m_TargetAssemblyTypeName: MarketImage, Assembly-CSharp
+        m_MethodName: SetActiveFalse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
