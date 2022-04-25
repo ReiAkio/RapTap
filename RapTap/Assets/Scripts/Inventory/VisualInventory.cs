@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Adiciona os valores no inventário
+/// </summary>
 public class VisualInventory : MonoBehaviour
 {
    [SerializeField]

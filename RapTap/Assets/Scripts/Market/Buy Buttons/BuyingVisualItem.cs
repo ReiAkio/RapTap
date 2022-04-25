@@ -21,9 +21,10 @@ public class BuyingVisualItem : MonoBehaviour
     }
     
     /// <summary>
-    /// Somente subtrai o valor do click e muda a cor para cinza
+    /// Permite a compra do produto e trocar o produto quando quiser
     /// </summary>
     public void BuyProduct(){
+        // Somente subtrai o valor do click, muda a cor para cinza e adiciona na lista do inventário
         if (click.getScore() >= visualItem.cost && aux == true)
         {
             click.RemoveScore(visualItem.cost);
@@ -32,6 +33,7 @@ public class BuyingVisualItem : MonoBehaviour
             Inventory();
         }
 
+        // Quando quer trocar de produto, troca a imagem dele
         if (aux == false)
         {
             visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
@@ -39,6 +41,9 @@ public class BuyingVisualItem : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Adiciona os valores no inventário e troca a imagem do produto
+    /// </summary>
     private void Inventory()
     {
         visualInventory.AddItem(visualItem);
