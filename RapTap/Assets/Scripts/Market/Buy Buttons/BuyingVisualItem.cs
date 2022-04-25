@@ -9,12 +9,15 @@ public class BuyingVisualItem : MonoBehaviour
 {
     public Clickable click;
     public VisualItem visualItem;
-    private List<VisualItem> VisualItemList;
+    public VisualInventory visualInventory;
+    [Header("O GAMEOBJECT DO PRODUTO PRESENTE NA CENA")]
+    public GameObject visualProduct;
     private bool aux;
-    
-    private void Start()
+
+    private void Awake()
     {
         aux = true;
+        visualProduct.SetActive(false);
     }
     
     /// <summary>
@@ -26,15 +29,22 @@ public class BuyingVisualItem : MonoBehaviour
             click.RemoveScore(visualItem.cost);
             aux = false;
             this.gameObject.GetComponent<Image>().color = Color.grey;
+            Inventory();
         }
+
+        if (aux == false)
+        {
+            visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
+        }
+
+    }
+
+    private void Inventory()
+    {
+        visualInventory.AddItem(visualItem);
+        visualProduct.SetActive(true);
+        visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
     }
     
-    /// <summary>
-    /// Get lista de visual
-    /// </summary>
-    /// <returns></returns>
-    public List<VisualItem> GetVisualItemList()
-    {
-        return VisualItemList;
-    }
+    
 }
