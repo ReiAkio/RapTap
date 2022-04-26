@@ -9,6 +9,10 @@ public class Clickable : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public Text scoreText;
     private int score;
 
+    public delegate void ClickAction();
+    public static event ClickAction MouseDown;
+    public static event ClickAction MouseUp;
+
     public void Score()
     {
         score++;
@@ -29,10 +33,22 @@ public class Clickable : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         // Botão Abaixou
+
+        if(MouseDown != null)
+        {
+            MouseDown();
+        }
+
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         // Botão levantou
+
+        if (MouseUp != null)
+        {
+            MouseUp();
+        }
+     
     }
 }
