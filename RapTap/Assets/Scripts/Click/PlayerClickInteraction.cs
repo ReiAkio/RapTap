@@ -8,19 +8,18 @@ public class PlayerClickInteraction : MonoBehaviour
     public GameObject enemy;
     public GameObject musicalNote1;
     public GameObject musicalNote2;
-    public Rigidbody2D enemyRb;
 
     private int playerDisplacement;
     private int crowdDisplacement;
     private int enemyHealth = 20;
     private Vector3 musicSpawnPos = new Vector3(620, 590, 0);
-    //private Animator EnemyAnimation;
+    private Animator EnemyAnimation;
 
     // Start is called before the first frame update
     void Start()
     {
-        //EnemyAnimation = enemy.GetComponent<Animator>();
-        //EnemyAnimation.speed = 0;
+        EnemyAnimation = enemy.transform.GetChild(0).gameObject.GetComponent<Animator>();
+        EnemyAnimation.speed = 0;
     }
 
     // Update is called once per frame
@@ -71,8 +70,7 @@ public class PlayerClickInteraction : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            enemyRb.AddForceAtPosition(new Vector2(-800f, 2600f), new Vector2(enemy.transform.position.x + 20, enemy.transform.position.y - 30), ForceMode2D.Impulse);
-            //EnemyAnimation.speed = 1.5f;
+            EnemyAnimation.speed = 1.5f;
             enemyHealth = 20;
         }
     }
