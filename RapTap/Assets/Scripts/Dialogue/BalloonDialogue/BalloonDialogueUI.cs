@@ -11,10 +11,10 @@ public class BalloonDialogueUI : MonoBehaviour
 
     private float minTime = 0;
     private float maxTime = 30;
-
     private float spawnTime;
     private float time;
 
+    private int randomDialogue;
 
     private BalloonTypewriterEffect typewriterEffect;
 
@@ -23,19 +23,20 @@ public class BalloonDialogueUI : MonoBehaviour
         typewriterEffect = GetComponent<BalloonTypewriterEffect>();
         CloseDialogueBox();
         SetRandomTime();
-        time = minTime;
+        SetRandomDialogue();
+        time = 0;
     }
 
 
     void FixedUpdate()
     {
- 
         time += Time.deltaTime;
  
         if(time >= spawnTime)
         {
             SpawnObject();
             SetRandomTime();
+            SetRandomDialogue();
         }
     }
 
@@ -49,11 +50,8 @@ public class BalloonDialogueUI : MonoBehaviour
 
     private IEnumerator WalkthroughDialogue(DialogueObject dialogueObject)
     {
-         foreach (string dialogue in dialogueObject.Dialogue)
-        {
-            yield return typewriterEffect.Run(dialogue, textLabel);
-            yield return new WaitForSeconds(3);
-        }
+        yield return typewriterEffect.Run(dialogueObject.Dialogue[randomDialogue], textLabel);
+        yield return new WaitForSeconds(3);
         CloseDialogueBox();
     }
 
@@ -72,6 +70,10 @@ public class BalloonDialogueUI : MonoBehaviour
         spawnTime = Random.Range(minTime, maxTime);
     }
 
+    void SetRandomDialogue()
+    {
+        randomDialogue = Random.Range(0, 3); 
+    }
 
     void SpawnObject()
     {

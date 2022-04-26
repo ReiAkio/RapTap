@@ -654,7 +654,7 @@ PrefabInstance:
     - target: {fileID: 112125247044595392, guid: 9804ea56c22519040a9d8a3f58a4566b, type: 3}
       propertyPath: testDialogue
       value: 
-      objectReference: {fileID: 11400000, guid: f814410980a998740815ca576323a750, type: 2}
+      objectReference: {fileID: 11400000, guid: 2c0ee332c45532f45b3b229787fb1686, type: 2}
     - target: {fileID: 9134774865497642536, guid: 9804ea56c22519040a9d8a3f58a4566b, type: 3}
       propertyPath: m_Name
       value: ChatBoxL (1)
@@ -727,7 +727,7 @@ PrefabInstance:
     - target: {fileID: -3525256580501477961, guid: 8a4c72e7595204446926b1221eb663fe, type: 3}
       propertyPath: testDialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 54a65217c8265ce4799c05953379d667, type: 2}
+      objectReference: {fileID: 11400000, guid: 2c0ee332c45532f45b3b229787fb1686, type: 2}
     - target: {fileID: 5235350018812526881, guid: 8a4c72e7595204446926b1221eb663fe, type: 3}
       propertyPath: m_RootOrder
       value: 2
