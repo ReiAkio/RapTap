@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b02aa38966d05a40ace21bc2829e2c0, type: 3}
-  m_Name: BuffItem01
+  m_Script: {fileID: 11500000, guid: 942a386a028b8cb408670966caaf923d, type: 3}
+  m_Name: New Dialogue List Object
   m_EditorClassIdentifier: 
-  name: Buff01
-  cost: 5
-  buffClick: 0
+  dialogueList:
+  - {fileID: 11400000, guid: 0065e6027ce5a0b4b966910f466878a8, type: 2}
+  - {fileID: 11400000, guid: b0fe97e87b8b58e4fa5b77063981aeb7, type: 2}

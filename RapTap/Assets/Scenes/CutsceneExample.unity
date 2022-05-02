@@ -406,7 +406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -795.46}
   m_SizeDelta: {x: 0, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613416345
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
+  m_fontSize: 89.05
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 957.3784, z: 0, w: 654.678}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -545,8 +545,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 211.18875}
+  m_SizeDelta: {x: 0, y: -422.4175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1823502349
 MonoBehaviour:
@@ -577,9 +577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 1613416345}
   dialogueImage: {fileID: 1823502347}
-  imageList: {fileID: 11400000, guid: e20450af5b709cd469e48c85b0cee7e5, type: 2}
-  Dialogues: {fileID: 11400000, guid: 2d29a83403c521441a42dc62933f2605, type: 2}
-  nextScene: SampleScene
+  dialogues: {fileID: 11400000, guid: 947a24fa85e58a540b90f2de095e077b, type: 2}
+  nextScene: kaivenscene
   fadeImage: {fileID: 2021682027}
   fadeTime: 0.5
 --- !u!114 &1823502351
@@ -722,8 +721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -343.27}
+  m_SizeDelta: {x: 0, y: 1326.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021682029
 MonoBehaviour:
