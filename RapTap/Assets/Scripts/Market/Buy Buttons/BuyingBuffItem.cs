@@ -34,6 +34,9 @@ public class BuyingBuffItem : MonoBehaviour
         }
     }
     
+    /// <summary>
+    /// Soma o valor do apertado pelo click e soma com o valor do buff
+    /// </summary>
     private void BuffAction()
     {
         sumScore = buffItem.buffClick + click.getClick();
