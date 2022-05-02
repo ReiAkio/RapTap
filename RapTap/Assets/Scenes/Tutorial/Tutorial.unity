@@ -2003,9 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 334324608}
-  visualItem: {fileID: 11400000, guid: 74f3d46acc632734b91ab1e2fdd104be, type: 2}
-  visualInventory: {fileID: 1938758900}
-  visualProduct: {fileID: 1719033147}
+  visualItem: {fileID: 0}
 --- !u!114 &885442909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2441,8 +2439,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   click: {fileID: 334324608}
   visualItem: {fileID: 11400000, guid: 9c2ee06e9d1a5ee46a19e6a698d04592, type: 2}
-  visualInventory: {fileID: 1938758900}
-  visualProduct: {fileID: 1719033147}
 --- !u!114 &1171616153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3561,6 +3557,8 @@ MonoBehaviour:
   textSpeed: 100
   wait: 0
   skipSpeedMultiplier: 0
+  isRunning: 0
+  skip: 0
 --- !u!114 &1822939434
 MonoBehaviour:
   m_ObjectHideFlags: 0
