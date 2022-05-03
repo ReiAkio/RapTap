@@ -9,41 +9,43 @@ public class DialogueUICutscene : MonoBehaviour
 {      
     [SerializeField] private TMP_Text textLabel;             
     [SerializeField] private GameObject dialogueImage;       
-    [SerializeField] private DialogueListObject dialogues;  
+    [SerializeField] private DialogueImageObject imageList;  
+    [SerializeField] private DialogueListObject Dialogues;  
     [SerializeField] private string nextScene;               
     [SerializeField] private GameObject fadeImage;           
     [SerializeField] private float fadeTime;
     
     private TypewriterEffect typewriterEffect;
     private bool click = false;
+    private int i = 0;
 
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
         textLabel.text = string.Empty;
-        StartCoroutine(ShowDialogue(dialogues));
+        StartCoroutine(ShowDialogue(Dialogues.DialogueList));
     }
 
-    private IEnumerator ShowDialogue(DialogueListObject dialogueList)
+    private IEnumerator ShowDialogue(DialogueObject[] dialogueObjectList)
     {
-        foreach (CutsceneDialogueObject dialogueObject in dialogueList.DialogueList)
+        foreach (DialogueObject dialogueObject in dialogueObjectList)
         {
-            ChangeImage(dialogueImage, dialogueObject.DialogueImage);
+            ChangeImage(dialogueImage, imageList.DialogueImage);
             yield return Fade(fadeImage, true, fadeTime);
-
+            i++;
             yield return RunDialogue(dialogueObject);
             yield return Fade(fadeImage, false, fadeTime);
         }
         SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
     }
 
-    private Coroutine RunDialogue(CutsceneDialogueObject dialogueObject)
+    private Coroutine RunDialogue(DialogueObject dialogueObject)
     {
         return StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
-    private IEnumerator StepThroughDialogue(CutsceneDialogueObject dialogueObject)
+    private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {        
         foreach (string dialogue in dialogueObject.Dialogue)
         {
@@ -57,10 +59,9 @@ public class DialogueUICutscene : MonoBehaviour
         }
     }
 
-    private void ChangeImage(GameObject dialogueImage, Sprite image)
+    private void ChangeImage(GameObject dialogueImage, Sprite[] imageFromList)
     {
-        dialogueImage.GetComponent<Image>().sprite = image;
-
+        dialogueImage.GetComponent<Image>().sprite = imageFromList[i];
     }
 
     private IEnumerator FadeImage(GameObject Image, bool fadeInOut, float time) // true = fade in, false = fade out
