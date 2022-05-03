@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,10 @@ public class BuyingBuffItem : MonoBehaviour
 {
     public Clickable click;
     public BuffItem buffItem;
-    private List<BuffItem> BuffItemList;
     private bool aux;
+    
+    [SerializeField]
+    private int sumScore;
 
     private void Start()
     {
@@ -24,6 +27,7 @@ public class BuyingBuffItem : MonoBehaviour
         if (click.getScore() >= buffItem.cost && aux == true)
         {
             click.RemoveScore(buffItem.cost);
+            BuffAction();
             aux = false;
             this.gameObject.GetComponent<Image>().color = Color.grey;
 
@@ -31,11 +35,11 @@ public class BuyingBuffItem : MonoBehaviour
     }
     
     /// <summary>
-    /// Get lista de buff
+    /// Soma o valor do apertado pelo click e soma com o valor do buff
     /// </summary>
-    /// <returns></returns>
-    public List<BuffItem> GetBuffItemList()
+    private void BuffAction()
     {
-        return BuffItemList;
+        sumScore = buffItem.buffClick + click.getClick();
+        click.setClick(sumScore);
     }
 }

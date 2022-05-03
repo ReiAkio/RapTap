@@ -31,6 +31,7 @@ public class DialogueUICutscene : MonoBehaviour
         {
             ChangeImage(dialogueImage, dialogueObject.DialogueImage);
             yield return Fade(fadeImage, true, fadeTime);
+
             yield return RunDialogue(dialogueObject);
             yield return Fade(fadeImage, false, fadeTime);
         }
@@ -59,6 +60,7 @@ public class DialogueUICutscene : MonoBehaviour
     private void ChangeImage(GameObject dialogueImage, Sprite image)
     {
         dialogueImage.GetComponent<Image>().sprite = image;
+
     }
 
     private IEnumerator FadeImage(GameObject Image, bool fadeInOut, float time) // true = fade in, false = fade out
