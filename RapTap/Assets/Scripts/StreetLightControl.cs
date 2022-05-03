@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuffInventory : MonoBehaviour
+public class StreetLightControl : MonoBehaviour
 {
+    public GameObject streetLight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,15 @@ public class BuffInventory : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void TurnOffLight()
+    {
+        streetLight.SetActive(false);
+    }
+
+    void TurnOnLight()
+    {
+        streetLight.SetActive(true);
     }
 }
