@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 942a386a028b8cb408670966caaf923d, type: 3}
-  m_Name: Cutscene0Dialogues
+  m_Name: New Dialogue List Object
   m_EditorClassIdentifier: 
   dialogueList:
-  - {fileID: 11400000, guid: 025333f63687fa745bf2faad01c0d911, type: 2}
-  - {fileID: 11400000, guid: 439e987daf095c54886703c74bec7a42, type: 2}
-  - {fileID: 11400000, guid: 2b4f465fe38bbee469983ab081702479, type: 2}
+  - {fileID: 11400000, guid: 4c8f3c6d778950c43aa029601ae72d16, type: 2}
+  - {fileID: 11400000, guid: 9b2106954cf3e5f458a273b32febd1da, type: 2}
+  - {fileID: 11400000, guid: e7bf86f54e3fcaa498669778a42b2521, type: 2}
