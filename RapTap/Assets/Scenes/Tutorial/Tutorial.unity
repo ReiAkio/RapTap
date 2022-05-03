@@ -3557,6 +3557,8 @@ MonoBehaviour:
   textSpeed: 100
   wait: 0
   skipSpeedMultiplier: 0
+  isRunning: 0
+  skip: 0
 --- !u!114 &1822939434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3569,7 +3571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a00b0e0d13b1a9b498bcf849c0838cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: CutsceneExample
+  nextScene: CindyScene
   clickable: {fileID: 334324608}
   typewriterEffect: {fileID: 1822939433}
   dialogueBox: {fileID: 1106380094}
