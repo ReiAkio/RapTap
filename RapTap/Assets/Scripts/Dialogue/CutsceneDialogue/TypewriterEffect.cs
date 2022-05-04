@@ -46,8 +46,8 @@ public class TypewriterEffect : MonoBehaviour
 
     private readonly List<Punctuation> punctuations = new List<Punctuation>()
     {
-        new Punctuation(new HashSet<char>(){'.', '!', '?'}, 0.6f),
-        new Punctuation(new HashSet<char>(){',', ';', ':'}, 0.3f)
+        new Punctuation(new HashSet<char>(){'.', '!', '?'}, 0f),
+        new Punctuation(new HashSet<char>(){',', ';', ':'}, 0f)
     };
 
     public Coroutine Run(string textToType, TMP_Text textLabel)

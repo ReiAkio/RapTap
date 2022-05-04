@@ -1,10 +1,10 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Dialogue/DialogueList")]
+[CreateAssetMenu(menuName = "Cutscene/DialogueList")]
 
 public class DialogueListObject : ScriptableObject
 {
-    [SerializeField] private DialogueObject[] dialogueList;
+    [SerializeField] private CutsceneDialogueObject[] dialogueList;
 
-    public DialogueObject[] DialogueList => dialogueList;
+    public CutsceneDialogueObject[] DialogueList => dialogueList;
 }
