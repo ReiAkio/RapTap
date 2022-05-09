@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   click: {fileID: 1598182503}
   buffItem: {fileID: 11400000, guid: 22a3167fddaf94340b210a1f9d271cef, type: 2}
+  sumScore: 0
 --- !u!114 &308172149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,6 +1313,7 @@ MonoBehaviour:
   visualItem: {fileID: 11400000, guid: 74f3d46acc632734b91ab1e2fdd104be, type: 2}
   visualInventory: {fileID: 820921514}
   visualProduct: {fileID: 2044813420}
+  sprite: []
 --- !u!114 &1122270437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3074,6 +3076,7 @@ GameObject:
   - component: {fileID: 2044813421}
   - component: {fileID: 2044813423}
   - component: {fileID: 2044813422}
+  - component: {fileID: 2044813424}
   m_Layer: 5
   m_Name: Visual01
   m_TagString: Untagged
@@ -3120,7 +3123,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -2218421634804122995, guid: 530e32539f42e724eb8235f3401ce9ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3138,6 +3141,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044813420}
   m_CullTransparentMesh: 1
+--- !u!95 &2044813424
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044813420}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9db65c7a708384b44a84f28ef031d441, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2066684981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,6 +3214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   click: {fileID: 1598182503}
   buffItem: {fileID: 11400000, guid: 5cbd943b2f008814d9809a7a54f1cbc2, type: 2}
+  sumScore: 0
 --- !u!114 &2066684984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3605,6 +3628,7 @@ MonoBehaviour:
   visualItem: {fileID: 11400000, guid: 9c2ee06e9d1a5ee46a19e6a698d04592, type: 2}
   visualInventory: {fileID: 820921514}
   visualProduct: {fileID: 2044813420}
+  sprite: []
 --- !u!114 &2121775087
 MonoBehaviour:
   m_ObjectHideFlags: 0
