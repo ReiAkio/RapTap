@@ -9,22 +9,36 @@ public class PlayerClickInteraction : MonoBehaviour
     public GameObject musicalNote1;
     public GameObject musicalNote2;
 
+    private Animator PlayerAnimator;
+    private Animator EnemyAnimator;
+
     private int playerDisplacement;
     private int crowdDisplacement;
     private int enemyHealth = 20;
     private Vector3 musicSpawnPos = new Vector3(620, 590, 0);
-    private Animator EnemyAnimation;
+    private float runTime = 0;
+    private float clickTime = -10;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        EnemyAnimation = enemy.transform.GetChild(0).gameObject.GetComponent<Animator>();
-        EnemyAnimation.speed = 0;
+        EnemyAnimator = enemy.transform.GetChild(0).gameObject.GetComponent<Animator>();
+        PlayerAnimator = GetComponent<Animator>();
+        EnemyAnimator.speed = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        runTime += Time.deltaTime;
+        if(PlayerAnimator.GetBool("isRapping"))
+        {
+            if (runTime - clickTime > 1)
+            {
+                PlayerAnimator.SetBool("isRapping", false);
+            }
+        }
         
     }
 
@@ -43,6 +57,8 @@ public class PlayerClickInteraction : MonoBehaviour
 
     void playerMouseDown ()
     {
+        clickTime = runTime;
+        PlayerAnimator.SetBool("isRapping", true);
         playerDisplacement = Random.Range(2, 7);
         crowdDisplacement = Random.Range(3, 6);
         transform.position = new Vector2(transform.position.x + playerDisplacement, transform.position.y + (playerDisplacement - 2));
@@ -70,7 +86,7 @@ public class PlayerClickInteraction : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            EnemyAnimation.speed = 1.5f;
+            EnemyAnimator.speed = 1.5f;
             enemyHealth = 20;
         }
     }
