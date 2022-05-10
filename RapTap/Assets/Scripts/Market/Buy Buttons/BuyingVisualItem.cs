@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 using UnityEngine.UI;
 
 /// <summary>
@@ -14,10 +15,12 @@ public class BuyingVisualItem : MonoBehaviour
     public GameObject visualProduct;
     private bool aux;
 
+    public Sprite[] sprite;
+
     private void Awake()
     {
         aux = true;
-        visualProduct.SetActive(false);
+        visualProduct.SetActive(true);
     }
     
     /// <summary>
