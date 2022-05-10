@@ -42,6 +42,13 @@ public class Clickable : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         return click;
     }
 
+    public int setScore(int newScore)
+    {
+        score = newScore;
+        scoreText.text = score.ToString();
+        return score;
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
         // Botão Abaixou
