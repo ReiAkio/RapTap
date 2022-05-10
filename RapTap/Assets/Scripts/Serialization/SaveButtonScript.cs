@@ -1,20 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class SaveButtonScript : MonoBehaviour
 {
     public Clickable click;
-    public void SaveFile()
+    public void Awake()
     {
-        SaveSystem.SaveGame(click);
+        if (File.Exists(Application.persistentDataPath + "/savedata.save"))
+        {
+            SaveData saveData = SaveSystem.LoadGame();
+            click.setClick(saveData.click);
+            click.setScore(saveData.score);
+        }
     }
 
-    public void LoadFile()
+    public void OnClick()
     {
-        SaveData saveData = SaveSystem.LoadGame();
-
-        click.setClick(saveData.click);
-        click.setScore(saveData.score);
+        SaveSystem.SaveGame(click);
     }
 }
