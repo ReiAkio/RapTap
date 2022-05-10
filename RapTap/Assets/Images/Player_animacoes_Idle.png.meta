@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 605a43bbe97d1b14196ad9a937f7cf9f
+guid: a93f18520aae5f3469af04b8f779dc4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 745168486365320457
-    second: Personagem_animacoes_Idle_0
+      213: 8597054529219066852
+    second: Player_animacoes_Idle_0
   - first:
-      213: 5604542759934833618
-    second: Personagem_animacoes_Idle_1
+      213: 5966636527243977150
+    second: Player_animacoes_Idle_1
   - first:
-      213: -4995715297019859671
-    second: Personagem_animacoes_Idle_2
+      213: -252434367094943563
+    second: Player_animacoes_Idle_2
   - first:
-      213: 331221398319536751
-    second: Personagem_animacoes_Idle_3
+      213: -4601730089144625695
+    second: Player_animacoes_Idle_3
   - first:
-      213: 4528702163256797776
-    second: Personagem_animacoes_Idle_4
+      213: -5201569084273202521
+    second: Player_animacoes_Idle_4
   - first:
-      213: -4034314605349424319
-    second: Personagem_animacoes_Idle_5
+      213: -5468447749790412989
+    second: Player_animacoes_Idle_5
   - first:
-      213: 7270205084495410961
-    second: Personagem_animacoes_Idle_6
+      213: 6621560654727741616
+    second: Player_animacoes_Idle_6
   - first:
-      213: 2406334738889647497
-    second: Personagem_animacoes_Idle_7
+      213: -7900532036137957853
+    second: Player_animacoes_Idle_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_0
+      name: Player_animacoes_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,14 +129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 905de9f4ace575a00800000000000000
-      internalID: 745168486365320457
+      spriteID: 4ebf3c09b8fde4770800000000000000
+      internalID: 8597054529219066852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_1
+      name: Player_animacoes_Idle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d3376e22f557cd40800000000000000
-      internalID: 5604542759934833618
+      spriteID: eb16f361f40cdc250800000000000000
+      internalID: 5966636527243977150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_2
+      name: Player_animacoes_Idle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92d6522e767abaab0800000000000000
-      internalID: -4995715297019859671
+      spriteID: 5b09434d74c2f7cf0800000000000000
+      internalID: -252434367094943563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_3
+      name: Player_animacoes_Idle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6a18dc5b1cb89400800000000000000
-      internalID: 331221398319536751
+      spriteID: 1e5de4c6dde5320c0800000000000000
+      internalID: -4601730089144625695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_4
+      name: Player_animacoes_Idle_4
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05ae6769f9e29de30800000000000000
-      internalID: 4528702163256797776
+      spriteID: 7aaed391a7050d7b0800000000000000
+      internalID: -5201569084273202521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_5
+      name: Player_animacoes_Idle_5
       rect:
         serializedVersion: 2
         x: 64
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1433afbbd3c3308c0800000000000000
-      internalID: -4034314605349424319
+      spriteID: 34f45f0aebb2c14b0800000000000000
+      internalID: -5468447749790412989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_6
+      name: Player_animacoes_Idle_6
       rect:
         serializedVersion: 2
         x: 128
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11776915105f4e460800000000000000
-      internalID: 7270205084495410961
+      spriteID: 0b000cb355284eb50800000000000000
+      internalID: 6621560654727741616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_Idle_7
+      name: Player_animacoes_Idle_7
       rect:
         serializedVersion: 2
         x: 192
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 985233a12b4056120800000000000000
-      internalID: 2406334738889647497
+      spriteID: 3264761d8fbab5290800000000000000
+      internalID: -7900532036137957853
       vertices: []
       indices: 
       edges: []
