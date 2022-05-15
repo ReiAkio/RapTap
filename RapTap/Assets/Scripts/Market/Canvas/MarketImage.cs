@@ -15,4 +15,9 @@ public class MarketImage : MonoBehaviour
         this.gameObject.SetActive(false);
     }
     
+    public void Changeimg(GameObject thisImage)
+        {
+            thisImage.transform.SetAsLastSibling(); // Para 
+        }
+    
 }

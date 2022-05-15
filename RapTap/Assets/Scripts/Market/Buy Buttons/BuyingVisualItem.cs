@@ -11,9 +11,14 @@ public class BuyingVisualItem : MonoBehaviour
     public Clickable click;
     public VisualItem visualItem;
     public VisualInventory visualInventory;
-    [Header("O GAMEOBJECT DO PRODUTO PRESENTE NA CENA")]
+    [Header("A protagonista")]
     public GameObject visualProduct;
     private bool aux;
+
+    [Header("Cópia do botão no inventário")]
+    public GameObject visualInventoryButton;
+    public Transform visualInventoryButtonParent;
+    public GameObject redPanda;
 
     public Sprite[] sprite;
 
@@ -34,14 +39,9 @@ public class BuyingVisualItem : MonoBehaviour
             aux = false;
             this.gameObject.GetComponent<Image>().color = Color.grey;
             Inventory();
+            AddInventoryButton();
         }
-
-        // Quando quer trocar de produto, troca a imagem dele
-        if (aux == false)
-        {
-            visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
-        }
-
+        
     }
 
     /// <summary>
@@ -53,6 +53,15 @@ public class BuyingVisualItem : MonoBehaviour
         visualProduct.SetActive(true);
         visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
     }
+
+    private void AddInventoryButton()
+    {
+        GameObject duplicateVisualButton = GameObject.Instantiate(visualInventoryButton);
+        duplicateVisualButton.transform.SetParent(visualInventoryButtonParent);
+        duplicateVisualButton.GetComponent<VisualInventoryButton>().visualItem = visualItem;
+        duplicateVisualButton.GetComponent<VisualInventoryButton>().redPanda = redPanda;
+    }
+    
     
     
 }
