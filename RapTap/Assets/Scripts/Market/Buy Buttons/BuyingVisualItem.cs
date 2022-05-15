@@ -54,6 +54,9 @@ public class BuyingVisualItem : MonoBehaviour
         visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
     }
 
+    /// <summary>
+    /// Adiciona do prefab o botão do inventário
+    /// </summary>
     private void AddInventoryButton()
     {
         GameObject duplicateVisualButton = GameObject.Instantiate(visualInventoryButton);

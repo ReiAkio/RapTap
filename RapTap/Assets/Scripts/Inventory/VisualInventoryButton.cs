@@ -9,7 +9,9 @@ public class VisualInventoryButton : MonoBehaviour
     public VisualItem visualItem;
     public GameObject redPanda;
     
-
+    /// <summary>
+    /// Ao apertar o botão do inventário troca o sprite da imagem do panda vermelho
+    /// </summary>
     public void ChangeVisualItem()
     {
         redPanda.gameObject.GetComponent<Image>().sprite = visualItem.image;

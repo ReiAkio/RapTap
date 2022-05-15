@@ -1875,7 +1875,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 983299863}
         m_TargetAssemblyTypeName: MarketButtons, Assembly-CSharp
-        m_MethodName: PressInventory
+        m_MethodName: PressButton
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 437951557}
@@ -3148,7 +3148,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1396702234}
         m_TargetAssemblyTypeName: MarketButtons, Assembly-CSharp
-        m_MethodName: PressShop
+        m_MethodName: PressButton
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 567991500}
