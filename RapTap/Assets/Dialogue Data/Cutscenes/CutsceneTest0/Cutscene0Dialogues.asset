@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Cutscene0Dialogues
   m_EditorClassIdentifier: 
   dialogueList:
-  - {fileID: 11400000, guid: 025333f63687fa745bf2faad01c0d911, type: 2}
-  - {fileID: 11400000, guid: 439e987daf095c54886703c74bec7a42, type: 2}
-  - {fileID: 11400000, guid: 2b4f465fe38bbee469983ab081702479, type: 2}
+  - {fileID: 11400000, guid: aaea969cad565f44d9fe67700f76df18, type: 2}
+  - {fileID: 11400000, guid: aaea969cad565f44d9fe67700f76df18, type: 2}
+  - {fileID: 11400000, guid: aaea969cad565f44d9fe67700f76df18, type: 2}
