@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: f29b02c2bfd0b024a9a362e92d6af2fe
   - enabled: 1
     path: Assets/Scenes/MurataScenes/Main.unity
-    guid: 5ae3e59ac2bf56145b3c8d4bf2c62a3d
+    guid: 16829cbe376da9c4c99513a510dabf58
   - enabled: 1
     path: Assets/Scenes/MurataScenes/MiniBossEvent.unity
     guid: 69dfe4fa887f49a4f96676707913e59d
