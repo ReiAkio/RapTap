@@ -2407,6 +2407,10 @@ MonoBehaviour:
   visualItem: {fileID: 11400000, guid: 74f3d46acc632734b91ab1e2fdd104be, type: 2}
   visualInventory: {fileID: 1938758900}
   visualProduct: {fileID: 1719033147}
+  visualInventoryButton: {fileID: 0}
+  visualInventoryButtonParent: {fileID: 0}
+  redPanda: {fileID: 0}
+  sprite: []
 --- !u!114 &885442909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2945,6 +2949,10 @@ MonoBehaviour:
   visualItem: {fileID: 11400000, guid: 9c2ee06e9d1a5ee46a19e6a698d04592, type: 2}
   visualInventory: {fileID: 1938758900}
   visualProduct: {fileID: 1719033147}
+  visualInventoryButton: {fileID: 0}
+  visualInventoryButtonParent: {fileID: 0}
+  redPanda: {fileID: 0}
+  sprite: []
 --- !u!114 &1171616153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4324,11 +4332,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1822939432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78a0b35fd5aaddf4c85143083a43f207, type: 3}
+  m_Script: {fileID: 11500000, guid: f5e84f982ac719e409bfeece5e003120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textSpeed: 100
-  wait: 0
+  textSpeed: 20
+  wait: 2
   skipSpeedMultiplier: 0
 --- !u!114 &1822939434
 MonoBehaviour:
