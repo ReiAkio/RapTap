@@ -18,18 +18,10 @@ public static class SaveSystem
     public static SaveData LoadGame()
     {
         string path = Application.persistentDataPath + "/savedata.save";
-        if (File.Exists(path))
-        {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Open);
-            SaveData savedata = formatter.Deserialize(stream) as SaveData;
-            stream.Close();
-            return savedata;
-        }
-        else
-        {
-            Debug.LogError("Save nao encontrado em " + path);
-            return null;
-        }
+        BinaryFormatter formatter = new BinaryFormatter();
+        FileStream stream = new FileStream(path, FileMode.Open);
+        SaveData savedata = formatter.Deserialize(stream) as SaveData;
+        stream.Close();
+        return savedata;
     }
 }
