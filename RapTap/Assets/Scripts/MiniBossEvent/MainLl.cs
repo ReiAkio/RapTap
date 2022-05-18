@@ -7,12 +7,13 @@ namespace MiniBossEvent
     public class MainLl : MonoBehaviour
     {
         [SerializeField] Clickable click;
-    
-        [SerializeField] public Animator transition;
         
+        [SerializeField] public Animator transition;
+
+        [SerializeField] public int scoretriggerBoss;
         void Update()
         {
-            if (click.getScore() == 30)
+            if (click.getScore() == scoretriggerBoss)
             {
                 LoadNextMiniBoss();
             }
