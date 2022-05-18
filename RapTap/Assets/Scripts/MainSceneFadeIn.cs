@@ -15,12 +15,6 @@ public class MainSceneFadeIn : MonoBehaviour
         StartCoroutine(FadeIn(fadeTime));
     }
 
-    // Update is called once per frame
-    /*void Update()
-    {
-        
-    }*/
-
     private IEnumerator FadeIn(float time)
     {
         for (float i = time; i >= 0; i -= Time.deltaTime)

@@ -91,4 +91,8 @@ public class PlayerClickInteraction : MonoBehaviour
         }
     }
 
+    void AnimationEnded()
+    {
+        PlayerAnimator.SetInteger("nLoops",PlayerAnimator.GetInteger("nLoops")-1);
+    }
 }
