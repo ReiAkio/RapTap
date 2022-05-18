@@ -577,8 +577,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 1613416345}
   dialogueImage: {fileID: 1823502347}
-  dialogues: {fileID: 11400000, guid: 947a24fa85e58a540b90f2de095e077b, type: 2}
-  nextScene: SampleScene
   fadeImage: {fileID: 2021682027}
   fadeTime: 0.5
 --- !u!114 &1823502351
