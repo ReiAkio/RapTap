@@ -577,9 +577,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 1613416345}
   dialogueImage: {fileID: 1823502347}
-  imageList: {fileID: 11400000, guid: e20450af5b709cd469e48c85b0cee7e5, type: 2}
-  Dialogues: {fileID: 11400000, guid: 2d29a83403c521441a42dc62933f2605, type: 2}
-  nextScene: EduSceneLight
   fadeImage: {fileID: 2021682027}
   fadeTime: 0.5
 --- !u!114 &1823502351
