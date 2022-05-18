@@ -15,4 +15,13 @@ public class MarketImage : MonoBehaviour
         this.gameObject.SetActive(false);
     }
     
+    /// <summary>
+    /// Trocar as interfaces de buff e visual na tela
+    /// </summary>
+    /// <param name="thisImage"></param>
+    public void Changeimg(GameObject thisImage)
+        {
+            thisImage.transform.SetAsLastSibling(); // Para 
+        }
+    
 }
