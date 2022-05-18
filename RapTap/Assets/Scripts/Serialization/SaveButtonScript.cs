@@ -1,4 +1,5 @@
 using System.IO;
+using System.Collections;
 using UnityEngine;
 
 public class SaveButtonScript : MonoBehaviour
@@ -12,10 +13,18 @@ public class SaveButtonScript : MonoBehaviour
             click.setClick(saveData.click);
             click.setScore(saveData.score);
         }
+        StartCoroutine(TimedSave());
     }
 
-    public void OnClick()
+    //public void OnClick()
+    //{
+    //    SaveSystem.SaveGame(click);
+    //}
+
+    public IEnumerator TimedSave()
     {
         SaveSystem.SaveGame(click);
+        yield return new WaitForSeconds(10f);
+        StartCoroutine(TimedSave());
     }
 }
