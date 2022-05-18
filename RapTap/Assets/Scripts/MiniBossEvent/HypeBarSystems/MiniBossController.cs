@@ -5,7 +5,7 @@ namespace MiniBossEvent
 {
     public class MiniBossController : MonoBehaviour
     {
-        [SerializeField] public int maxHype = 100;
+        [SerializeField] public int maxHype;
         [SerializeField] public int hypePps;
         
         private int currentHype;

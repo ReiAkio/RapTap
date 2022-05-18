@@ -4,15 +4,15 @@ namespace MiniBossEvent
 {
     public class MiniBossPandaController : MonoBehaviour
     {
-        [SerializeField] public int maxHype = 100;
+        [SerializeField] public int maxHype;
         
-        private int currentHype;
+        private int _currentHype;
 
         public MiniBossHypeBar hypeBar;
 
         void Start()
         {
-            currentHype = 0;
+            _currentHype = 0;
             hypeBar.SetMaxHype(maxHype);
         }
 
@@ -28,8 +28,8 @@ namespace MiniBossEvent
 
         public void GetHype(int hypepoints) 
         {
-            currentHype += hypepoints;
-            hypeBar.SetHype(currentHype);
+            _currentHype += hypepoints;
+            hypeBar.SetHype(_currentHype);
         }
     }
 }
