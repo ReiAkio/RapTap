@@ -8,24 +8,44 @@ using UnityEngine.UI;
 /// </summary>
 public class BuyingVisualItem : MonoBehaviour
 {
+    //teste serializacao
+    public InventorySerialization inv;
+    public int id;
+    //
+
+
     public Clickable click;
     public VisualItem visualItem;
     public VisualInventory visualInventory;
     [Header("A protagonista")]
     public GameObject visualProduct;
     private bool aux;
-
     [Header("Cópia do botão no inventário")]
     public GameObject visualInventoryButton;
     public Transform visualInventoryButtonParent;
     public GameObject redPanda;
-
     public Sprite[] sprite;
 
     private void Awake()
     {
         aux = true;
         visualProduct.SetActive(true);
+        //teste serializacao
+        aux = !inv.visualItems[id];
+        if (!aux)
+        {
+            this.gameObject.GetComponent<Image>().color = Color.grey;
+            visualInventory.AddItem(visualItem);
+            visualProduct.SetActive(true);
+            AddInventoryButton();
+            if (id == inv.activeVisual)
+            {
+                visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
+            }
+        }
+            
+
+        //
     }
     
     /// <summary>
@@ -38,10 +58,15 @@ public class BuyingVisualItem : MonoBehaviour
             click.RemoveScore(visualItem.cost);
             aux = false;
             this.gameObject.GetComponent<Image>().color = Color.grey;
+
+            //teste serializacao
+            inv.OnBuyVisual(id, !aux);
+            //
+
             Inventory();
             AddInventoryButton();
         }
-        
+
     }
 
     /// <summary>
@@ -63,8 +88,9 @@ public class BuyingVisualItem : MonoBehaviour
         duplicateVisualButton.transform.SetParent(visualInventoryButtonParent);
         duplicateVisualButton.GetComponent<VisualInventoryButton>().visualItem = visualItem;
         duplicateVisualButton.GetComponent<VisualInventoryButton>().redPanda = redPanda;
+        duplicateVisualButton.GetComponent<VisualInventoryButton>().inv = inv;
+        duplicateVisualButton.GetComponent<VisualInventoryButton>().id = id;
     }
-    
     
     
 }
