@@ -1198,6 +1198,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 787181203}
+    - target: {fileID: 7547140950950549144, guid: 07025aed25218b2459e5d24a16c7e09d, type: 3}
+      propertyPath: scoretriggerBoss
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7547140950950549145, guid: 07025aed25218b2459e5d24a16c7e09d, type: 3}
       propertyPath: m_RootOrder
       value: 1

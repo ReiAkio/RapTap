@@ -13,14 +13,14 @@ namespace MiniBossEvent
 
         [SerializeField] public Animator transition;
         
-        void Update()
+        void FixedUpdate()
         {
-            if (bossHypeBar.slider.value == bossController.maxHype)
+            if (bossHypeBar.slider.value == bossController.maxHype && pandaHypeBar.slider.value < pandaController.maxHype)
             {
                 RestartBattle();
             }
 
-            if (pandaHypeBar.slider.value == pandaController.maxHype)
+            if (pandaHypeBar.slider.value == pandaController.maxHype && bossHypeBar.slider.value < bossController.maxHype)
             {
                 ReturnToMain();
             }

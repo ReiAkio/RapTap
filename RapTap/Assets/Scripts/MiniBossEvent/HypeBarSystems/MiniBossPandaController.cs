@@ -8,7 +8,7 @@ namespace MiniBossEvent
         
         private int _currentHype;
 
-        public MiniBossHypeBar hypeBar;
+        [SerializeField] MiniBossHypeBar hypeBar;
 
         void Start()
         {

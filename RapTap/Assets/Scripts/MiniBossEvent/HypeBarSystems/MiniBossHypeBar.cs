@@ -14,7 +14,6 @@ namespace MiniBossEvent
         {
             slider.maxValue = hype;
             slider.value = 0;
-        
         }
     
         public void SetHype(int hype)

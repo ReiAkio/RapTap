@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace MiniBossEvent
 {
@@ -7,10 +8,11 @@ namespace MiniBossEvent
     {
         [SerializeField] public int maxHype;
         [SerializeField] public int hypePps;
+
+        [SerializeField] MiniBossHypeBar hypeBar;
         
         private int currentHype;
         
-        public MiniBossHypeBar hypeBar;
         
         void Start()
         {
