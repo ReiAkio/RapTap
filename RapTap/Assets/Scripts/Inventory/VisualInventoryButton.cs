@@ -9,7 +9,6 @@ public class VisualInventoryButton : MonoBehaviour
     public VisualItem visualItem;
     public GameObject redPanda;
     //teste serializacao
-    public int id;
     public InventorySerialization inv;
     //
 
@@ -19,6 +18,6 @@ public class VisualInventoryButton : MonoBehaviour
     public void ChangeVisualItem()
     {
         redPanda.gameObject.GetComponent<Image>().sprite = visualItem.image;
-        inv.SetActive(id);
+        inv.SetActive(visualItem.id);
     } 
 }
