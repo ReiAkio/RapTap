@@ -10,7 +10,6 @@ public class BuyingBuffItem : MonoBehaviour
 {
     //teste serializacao
     public InventorySerialization inv;
-    public int id;
     //
 
     public Clickable click;
@@ -25,7 +24,7 @@ public class BuyingBuffItem : MonoBehaviour
         aux = true;
 
         //teste serializacao
-        aux = !inv.buffItems[id];
+        aux = !inv.buffItems[buffItem.id];
         if(!aux)
             this.gameObject.GetComponent<Image>().color = Color.grey;
         //
@@ -43,7 +42,7 @@ public class BuyingBuffItem : MonoBehaviour
             BuffAction();
             aux = false;
             //teste serializacao
-            inv.OnBuyBuff(id, !aux);
+            inv.OnBuyBuff(buffItem.id, !aux);
             //
             this.gameObject.GetComponent<Image>().color = Color.grey;
 
