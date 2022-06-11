@@ -43,9 +43,19 @@ public class ConfigsMenu : MonoBehaviour
         qualityDropdown.RefreshShownValue();
     }
 
-    public void SetVolume(float volume)
+    public void SetMasterVolume(float volume)
     {
         mainMixer.SetFloat("masterVolume", volume);
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        mainMixer.SetFloat("musicVolume", volume);
+    }
+
+    public void SetSFX_Volume(float volume)
+    {
+        mainMixer.SetFloat("sfxVolume", volume);
     }
 
     public void SetResolution(int resIndex)
