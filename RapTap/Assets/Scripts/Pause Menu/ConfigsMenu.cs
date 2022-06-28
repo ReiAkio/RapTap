@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class ConfigsMenu : MonoBehaviour
 {
@@ -15,8 +18,16 @@ public class ConfigsMenu : MonoBehaviour
 
     Resolution[] resolutions;
 
+    public VolumeProfile vProf;
+    private ColorAdjustments colAdj;
+    public Light2D globalLight;
+    public Light2D lampPostLight;
+
     void Start()
     {
+        if (vProf.TryGet<ColorAdjustments>(out colAdj) == false)
+            Debug.Log("Color Adjustments fail");
+
         resolutions = Screen.resolutions;
         int currentResol = 0;
 
@@ -41,6 +52,22 @@ public class ConfigsMenu : MonoBehaviour
 
         qualityDropdown.value = (QualitySettings.GetQualityLevel() - 1)/2;
         qualityDropdown.RefreshShownValue();
+    }
+
+    public void SetSaturation (float saturationValue)
+    {
+        colAdj.saturation.value = saturationValue;
+    }
+
+    public void SetBrightness (float brightnessValue)
+    {
+        globalLight.intensity = brightnessValue;
+        lampPostLight.intensity = brightnessValue;
+    }
+
+    public void SetContrast (float contrastValue)
+    {
+        colAdj.contrast.value = contrastValue;
     }
 
     public void SetMasterVolume(float volume)
