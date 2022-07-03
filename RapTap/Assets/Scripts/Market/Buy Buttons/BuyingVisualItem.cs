@@ -20,8 +20,6 @@ public class BuyingVisualItem : MonoBehaviour
     public Transform visualInventoryButtonParent;
     public GameObject redPanda;
 
-    public Sprite[] sprite;
-
     private void Awake()
     {
         aux = true;
@@ -51,7 +49,7 @@ public class BuyingVisualItem : MonoBehaviour
     {
         visualInventory.AddItem(visualItem);
         visualProduct.SetActive(true);
-        visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
+        visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
     }
 
     /// <summary>
