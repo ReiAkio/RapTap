@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ac936be9d1f9694fbc800e3d5109ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioScript: {fileID: 0}
+  audioScript: {fileID: 1898719116}
   crowd: {fileID: 1216590669}
   enemy: {fileID: 2021389431}
   musicalNote1: {fileID: 5258006166900913425, guid: bd3d1e8cb6c5f354aa23c5cfbba201cd, type: 3}
@@ -1794,6 +1794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16df905a4423be043b05f0c5bcdd9ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
   click: {fileID: 1915602535}
   buffItem: {fileID: 11400000, guid: 5cbd943b2f008814d9809a7a54f1cbc2, type: 2}
   sumScore: 0
@@ -2097,13 +2098,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed0ab20aa4fd59429147de97330fb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
   click: {fileID: 1915602535}
   visualItem: {fileID: 11400000, guid: 6b03c1b838c64554b88dce8020a2dda8, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
   visualInventoryButtonParent: {fileID: 1881423489}
-  redPanda: {fileID: 13238441}
 --- !u!114 &228702407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2784,14 +2785,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16037738, g: 0.011196151, b: 0.011196151, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 3b3e4f60f16c4f940b89c833eeac77a8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -5684,6 +5685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16df905a4423be043b05f0c5bcdd9ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
   click: {fileID: 1915602535}
   buffItem: {fileID: 11400000, guid: 22a3167fddaf94340b210a1f9d271cef, type: 2}
   sumScore: 0
@@ -8839,13 +8841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed0ab20aa4fd59429147de97330fb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
   click: {fileID: 1915602535}
   visualItem: {fileID: 11400000, guid: 79c40cc68f73d7244945090bbe99d4ac, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
   visualInventoryButtonParent: {fileID: 1881423489}
-  redPanda: {fileID: 13238441}
 --- !u!114 &1413146666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12206,13 +12208,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed0ab20aa4fd59429147de97330fb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
   click: {fileID: 1915602535}
   visualItem: {fileID: 11400000, guid: 5edb7a967eb886d4ba5b89cbb5219b0e, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
   visualInventoryButtonParent: {fileID: 1881423489}
-  redPanda: {fileID: 13238441}
 --- !u!114 &1931058639
 MonoBehaviour:
   m_ObjectHideFlags: 0

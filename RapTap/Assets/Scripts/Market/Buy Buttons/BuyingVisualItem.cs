@@ -22,7 +22,6 @@ public class BuyingVisualItem : MonoBehaviour
     [Header("Cópia do botão no inventário")]
     public GameObject visualInventoryButton;
     public Transform visualInventoryButtonParent;
-    public GameObject redPanda;
 
     private void Awake()
     {
@@ -38,7 +37,7 @@ public class BuyingVisualItem : MonoBehaviour
             AddInventoryButton();
             if (visualItem.id == inv.activeVisual)
             {
-                visualProduct.gameObject.GetComponent<Image>().sprite = visualItem.image;
+                visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
             }
         }
             
@@ -85,7 +84,7 @@ public class BuyingVisualItem : MonoBehaviour
         GameObject duplicateVisualButton = GameObject.Instantiate(visualInventoryButton);
         duplicateVisualButton.transform.SetParent(visualInventoryButtonParent);
         duplicateVisualButton.GetComponent<VisualInventoryButton>().visualItem = visualItem;
-        duplicateVisualButton.GetComponent<VisualInventoryButton>().redPanda = redPanda;
+        duplicateVisualButton.GetComponent<VisualInventoryButton>().redPanda = visualProduct;
         duplicateVisualButton.GetComponent<VisualInventoryButton>().inv = inv;
     }
     
