@@ -2098,7 +2098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1915602535}
-  visualItem: {fileID: 0}
+  visualItem: {fileID: 11400000, guid: 6b03c1b838c64554b88dce8020a2dda8, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
@@ -8840,7 +8840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1915602535}
-  visualItem: {fileID: 0}
+  visualItem: {fileID: 11400000, guid: 79c40cc68f73d7244945090bbe99d4ac, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
@@ -12207,7 +12207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1915602535}
-  visualItem: {fileID: 0}
+  visualItem: {fileID: 11400000, guid: 5edb7a967eb886d4ba5b89cbb5219b0e, type: 2}
   visualInventory: {fileID: 352272055}
   visualProduct: {fileID: 13238441}
   visualInventoryButton: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
@@ -12890,6 +12890,10 @@ PrefabInstance:
       propertyPath: redPanda
       value: 
       objectReference: {fileID: 13238441}
+    - target: {fileID: 9192563760808235449, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
+      propertyPath: visualItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 138d14a314c7fd54bab592b69a307608, type: 2}
     - target: {fileID: 9192563760808235451, guid: 471aad4d455802b41bb77841ac57831e, type: 3}
       propertyPath: m_Name
       value: 'Inventory - Button '
