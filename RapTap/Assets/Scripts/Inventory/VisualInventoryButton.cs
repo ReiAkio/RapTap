@@ -8,7 +8,10 @@ public class VisualInventoryButton : MonoBehaviour
 {
     public VisualItem visualItem;
     public GameObject redPanda;
-    
+    //teste serializacao
+    public InventorySerialization inv;
+    //
+
     /// <summary>
     /// Ao apertar o botão do inventário troca o sprite da imagem do panda vermelho
     /// </summary>
