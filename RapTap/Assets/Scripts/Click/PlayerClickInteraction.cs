@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerClickInteraction : MonoBehaviour
 {
+    [SerializeField] private AudioManager audioScript;
+
     public GameObject crowd;
     public GameObject enemy;
     public GameObject musicalNote1;
@@ -12,6 +14,7 @@ public class PlayerClickInteraction : MonoBehaviour
     private Animator PlayerAnimator;
     private Animator EnemyAnimator;
 
+    static public bool isRap;
     private int playerDisplacement;
     private int crowdDisplacement;
     private int enemyHealth = 20;
@@ -32,11 +35,13 @@ public class PlayerClickInteraction : MonoBehaviour
     void Update()
     {
         runTime += Time.deltaTime;
-        if(PlayerAnimator.GetBool("isRapping"))
+        if(isRap)
         {
             if (runTime - clickTime > 1)
             {
-                PlayerAnimator.SetBool("isRapping", false);
+                isRap = false;
+                PlayerAnimator.SetBool("isRapping", isRap);
+                audioScript.PauseRapMusic();
             }
         }
         
@@ -58,7 +63,13 @@ public class PlayerClickInteraction : MonoBehaviour
     void playerMouseDown ()
     {
         clickTime = runTime;
-        PlayerAnimator.SetBool("isRapping", true);
+        audioScript.PlayClickSFX();
+        if (!isRap)
+        {
+            isRap = true;
+            PlayerAnimator.SetBool("isRapping", isRap);
+            audioScript.PlayRapMusic();
+        }
         playerDisplacement = Random.Range(2, 7);
         crowdDisplacement = Random.Range(3, 6);
         transform.position = new Vector2(transform.position.x + playerDisplacement, transform.position.y + (playerDisplacement - 2));
