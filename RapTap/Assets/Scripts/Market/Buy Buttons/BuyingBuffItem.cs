@@ -8,6 +8,10 @@ using UnityEngine.UI;
 /// </summary>
 public class BuyingBuffItem : MonoBehaviour
 {
+    //teste serializacao
+    public InventorySerialization inv;
+    //
+
     public Clickable click;
     public BuffItem buffItem;
     private bool aux;
@@ -18,7 +22,15 @@ public class BuyingBuffItem : MonoBehaviour
     private void Start()
     {
         aux = true;
+
+        //teste serializacao
+        aux = !inv.buffItems[buffItem.id];
+        if(!aux)
+            this.gameObject.GetComponent<Image>().color = Color.grey;
+        //
     }
+
+
 
     /// <summary>
     /// Somente subtrai o valor do click e muda a cor para cinza
@@ -29,6 +41,9 @@ public class BuyingBuffItem : MonoBehaviour
             click.RemoveScore(buffItem.cost);
             BuffAction();
             aux = false;
+            //teste serializacao
+            inv.OnBuyBuff(buffItem.id, !aux);
+            //
             this.gameObject.GetComponent<Image>().color = Color.grey;
 
         }

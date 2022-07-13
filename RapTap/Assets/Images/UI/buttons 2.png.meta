@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 530e32539f42e724eb8235f3401ce9ce
+guid: 8c66fdde4a17e194bae7fe819a4277b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2218421634804122995
-    second: Personagem_animacoes_0
+      213: -6320512085984191668
+    second: buttons 2_0
   - first:
-      213: 5616652866296541067
-    second: Personagem_animacoes_1
+      213: -5166504189510690100
+    second: buttons 2_1
   - first:
-      213: 3435093734830906799
-    second: Personagem_animacoes_2
+      213: 2655614102047663924
+    second: buttons 2_2
   - first:
-      213: -8405128101460343969
-    second: Personagem_animacoes_3
+      213: -1523202559882745562
+    second: buttons 2_3
   - first:
-      213: -7701712798934407647
-    second: Personagem_animacoes_4
+      213: -3143751918554908253
+    second: buttons 2_4
   - first:
-      213: 3894822540176590473
-    second: Personagem_animacoes_5
-  - first:
-      213: -346976972884146442
-    second: Personagem_animacoes_6
-  - first:
-      213: -8313202074245854399
-    second: Personagem_animacoes_7
+      213: 7475733936272741450
+    second: buttons 2_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,12 +64,12 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 0
+  alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -89,7 +83,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -101,7 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -113,7 +107,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -125,7 +119,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,7 +131,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -151,118 +145,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Personagem_animacoes_0
+      name: buttons 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 14
+        y: 174
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8a757fd6459631e0800000000000000
-      internalID: -2218421634804122995
+      spriteID: c4b595cceb70948a0800000000000000
+      internalID: -6320512085984191668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_1
+      name: buttons 2_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 34
+        y: 174
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8fe84a060c52fd40800000000000000
-      internalID: 5616652866296541067
+      spriteID: ccad5ad10d3ec48b0800000000000000
+      internalID: -5166504189510690100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_2
+      name: buttons 2_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 14
+        y: 157
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad14ca4d87ebaf20800000000000000
-      internalID: 3435093734830906799
+      spriteID: 437a11da4f2aad420800000000000000
+      internalID: 2655614102047663924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_3
+      name: buttons 2_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 32
+        y: 78
+        width: 86
+        height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f538dc4268cfa5b80800000000000000
-      internalID: -8405128101460343969
+      spriteID: 6292931975f7cdae0800000000000000
+      internalID: -1523202559882745562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_4
+      name: buttons 2_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 127
+        y: 129
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1266f69c3050e1590800000000000000
-      internalID: -7701712798934407647
+      spriteID: 3a9f49059462f54d0800000000000000
+      internalID: -3143751918554908253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_5
+      name: buttons 2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 155
+        y: 104
+        width: 6
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +264,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9860962f6703d0630800000000000000
-      internalID: 3894822540176590473
+      spriteID: 7f0a21f278ad19500800000000000000
+      internalID: 401342115957874935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_animacoes_6
+      name: buttons 2_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 161
+        y: 129
+        width: 4
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,34 +285,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f60002184a4f2bf0800000000000000
-      internalID: -346976972884146442
+      spriteID: a449eda28642fb760800000000000000
+      internalID: 7475733936272741450
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Personagem_animacoes_7
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14b098a32c291ac80800000000000000
-      internalID: -8313202074245854399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
+    outline:
+    - - {x: -118, y: -23}
+      - {x: -119, y: 54}
+      - {x: -31, y: 54}
+      - {x: -32, y: -22}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
