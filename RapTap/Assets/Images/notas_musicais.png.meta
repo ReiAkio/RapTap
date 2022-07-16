@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 2f3277ee0c6ad5a4da941f6230a583dc
+guid: 239842745151d994589d6ccf6d051aa9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5725204080471822899
-    second: Caixa_de_Som_0
+      213: 4484476551370710187
+    second: notas_musicais_0
   - first:
-      213: 5788770260252827458
-    second: Caixa_de_Som_1
+      213: -8210451178297552748
+    second: notas_musicais_1
   - first:
-      213: -1302692740390398538
-    second: Caixa_de_Som_2
+      213: -6659412475591427488
+    second: notas_musicais_2
   - first:
-      213: -4929432129609280358
-    second: Caixa_de_Som_3
-  - first:
-      213: 6308456915617261651
-    second: Caixa_de_Som_4
-  - first:
-      213: -5604031409911525793
-    second: Caixa_de_Som_5
+      213: 3303503775066866265
+    second: notas_musicais_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caixa_de_Som_0
+      name: notas_musicais_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 90
-        height: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcd2cd4e83dfb80b0800000000000000
-      internalID: -5725204080471822899
+      spriteID: bac1508e9af0c3e30800000000000000
+      internalID: 4484476551370710187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caixa_de_Som_1
+      name: notas_musicais_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 160
-        width: 90
-        height: 160
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24f17b8a1e7d55050800000000000000
-      internalID: 5788770260252827458
+      spriteID: 49013e7772e9e0e80800000000000000
+      internalID: -8210451178297552748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caixa_de_Som_2
+      name: notas_musicais_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 160
-        width: 90
-        height: 160
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5dc85cad7ebede0800000000000000
-      internalID: -1302692740390398538
+      spriteID: 06a7193f2a30593a0800000000000000
+      internalID: -6659412475591427488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caixa_de_Som_3
+      name: notas_musicais_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
-        height: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,50 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94dd3a6893279bb0800000000000000
-      internalID: -4929432129609280358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caixa_de_Som_4
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 0
-        width: 90
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 358293024242c8750800000000000000
-      internalID: 6308456915617261651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caixa_de_Som_5
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 0
-        width: 90
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5e8716cf1b7a32b0800000000000000
-      internalID: -5604031409911525793
+      spriteID: 952c5034e2768dd20800000000000000
+      internalID: 3303503775066866265
       vertices: []
       indices: 
       edges: []

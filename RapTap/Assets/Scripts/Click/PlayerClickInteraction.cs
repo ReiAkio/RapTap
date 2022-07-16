@@ -6,13 +6,17 @@ public class PlayerClickInteraction : MonoBehaviour
 {
     [SerializeField] private AudioManager audioScript;
 
-    public GameObject crowd;
-    public GameObject enemy;
-    public GameObject musicalNote1;
-    public GameObject musicalNote2;
+    [SerializeField] private GameObject crowd;
+    [SerializeField] private GameObject enemy;
+
+    [SerializeField] private GameObject musicalNote1;
+    [SerializeField] private GameObject musicalNote2;
+    [SerializeField] private GameObject musicalNote3;
+    [SerializeField] private GameObject musicalNote4;
 
     private Animator PlayerAnimator;
     private Animator EnemyAnimator;
+    [SerializeField] private Animator BoomboxAnimator;
 
     static public bool isRap;
     private int playerDisplacement;
@@ -41,6 +45,7 @@ public class PlayerClickInteraction : MonoBehaviour
             {
                 isRap = false;
                 PlayerAnimator.SetBool("isRapping", isRap);
+                BoomboxAnimator.SetBool("isRapping", isRap);
                 audioScript.PauseRapMusic();
             }
         }
@@ -68,6 +73,7 @@ public class PlayerClickInteraction : MonoBehaviour
         {
             isRap = true;
             PlayerAnimator.SetBool("isRapping", isRap);
+            BoomboxAnimator.SetBool("isRapping", isRap);
             audioScript.PlayRapMusic();
         }
         playerDisplacement = Random.Range(2, 7);
@@ -77,15 +83,21 @@ public class PlayerClickInteraction : MonoBehaviour
         crowd.transform.position = new Vector2(crowd.transform.position.x, crowd.transform.position.y + crowdDisplacement);
         enemy.transform.position = new Vector2(enemy.transform.position.x, enemy.transform.position.y + crowdDisplacement);
         enemyHealth -= 1;
-        if (Random.Range(0, 2) == 1)
+        switch(Random.Range(0, 4))
         {
-            Instantiate(musicalNote1, musicSpawnPos, Quaternion.identity);
+            case 0:
+                Instantiate(musicalNote1, musicSpawnPos, Quaternion.identity);
+                break;
+            case 1:
+                Instantiate(musicalNote2, musicSpawnPos, Quaternion.identity);
+                break;
+            case 2:
+                Instantiate(musicalNote3, musicSpawnPos, Quaternion.identity);
+                break;
+            case 3:
+                Instantiate(musicalNote4, musicSpawnPos, Quaternion.identity);
+                break;
         }
-        else
-        {
-            Instantiate(musicalNote2, musicSpawnPos, Quaternion.identity);
-        }
-
     }
 
     void playerMouseUp ()
