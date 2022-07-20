@@ -351,10 +351,10 @@ RectTransform:
   m_Father: {fileID: 1171997219}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 360}
+  m_SizeDelta: {x: 1080, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617702148
 MonoBehaviour:
@@ -369,8 +369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textSpeed: 20
-  wait: 2
-  skipSpeedMultiplier: 0
+  wait: 1
+  skipSpeedMultiplier: 10
 --- !u!114 &617702149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 1196971675}
   dialogueImage: {fileID: 617702146}
-  dialogues: {fileID: 11400000, guid: 947a24fa85e58a540b90f2de095e077b, type: 2}
+  dialogues: {fileID: 11400000, guid: 0114f6019b9505b45ae2d62382a80e6b, type: 2}
   nextScene: Main_Tutorial
   fadeImage: {fileID: 460461689}
   fadeTime: 0.5
@@ -617,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -555}
   m_SizeDelta: {x: 0, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1196971675

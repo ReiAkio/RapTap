@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45d692e1dafa65e42a9742c7b24796f8, type: 3}
-  m_Name: New Cutscene Dialogue Object
+  m_Name: Scene 4
   m_EditorClassIdentifier: 
   dialogue:
-  - "teste 7 teste 7 teste 7\t"
-  - 'teste 8 teste 8 teste 8 '
-  dialogueImage: {fileID: 21300000, guid: c17d50efc57322148b2cc16246517ba8, type: 3}
+  - "di\xE1logo 10"
+  - "di\xE1logo 11"
+  dialogueImage: {fileID: 21300000, guid: 44dbb3b9f73d18943b9eb25a3d2cff2e, type: 3}
