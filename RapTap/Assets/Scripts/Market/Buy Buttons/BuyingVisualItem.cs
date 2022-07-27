@@ -27,7 +27,9 @@ public class BuyingVisualItem : MonoBehaviour
     {
         aux = true;
         visualProduct.SetActive(true);
-        //teste serializacao
+    }
+    private void Start()
+    {
         aux = !inv.visualItems[visualItem.id];
         if (!aux)
         {
@@ -40,11 +42,8 @@ public class BuyingVisualItem : MonoBehaviour
                 visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
             }
         }
-            
-
-        //
     }
-    
+
     /// <summary>
     /// Permite a compra do produto e trocar o produto quando quiser
     /// </summary>
