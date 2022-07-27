@@ -22,7 +22,7 @@ public class PlayerClickInteraction : MonoBehaviour
     private int playerDisplacement;
     private int crowdDisplacement;
     private int enemyHealth = 20;
-    private Vector3 musicSpawnPos = new Vector3(620, 590, 0);
+    private Vector3 musicSpawnPos = new Vector3(500, 290, 0);
     private float runTime = 0;
     private float clickTime = -10;
     
