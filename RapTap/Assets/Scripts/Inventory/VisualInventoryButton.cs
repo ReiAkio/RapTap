@@ -18,5 +18,7 @@ public class VisualInventoryButton : MonoBehaviour
     public void ChangeVisualItem()
     {
         redPanda.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
+        //serializacao
+        inv.SetActive(visualItem.id);
     } 
 }

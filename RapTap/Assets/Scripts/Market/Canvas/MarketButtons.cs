@@ -8,6 +8,7 @@ public class MarketButtons : MonoBehaviour
     public void PressButton(GameObject thisImage)
     {
         thisImage.SetActive(true);
-        thisImage.transform.SetAsLastSibling(); // Para 
+        thisImage.transform.SetAsLastSibling();// Para 
+        thisImage.transform.parent.GetChild(0).gameObject.SetActive(false);
     }
 }

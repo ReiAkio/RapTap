@@ -21,7 +21,9 @@ public class MarketImage : MonoBehaviour
     /// <param name="thisImage"></param>
     public void Changeimg(GameObject thisImage)
         {
-            thisImage.transform.SetAsLastSibling(); // Para 
+            thisImage.SetActive(true);
+            thisImage.transform.SetAsLastSibling();// Para 
+            thisImage.transform.parent.GetChild(0).gameObject.SetActive(false);
         }
     
 }
