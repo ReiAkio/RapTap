@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StreetLightControl : MonoBehaviour
 {
-    [SerializeField] private GameObject streetLight;
+    public GameObject streetLight;
 
     // Start is called before the first frame update
     void Start()
