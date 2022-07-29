@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Scene 1
   m_EditorClassIdentifier: 
   dialogue:
-  - "di\xE1logo 1"
-  - "di\xE1logo 2"
-  - "di\xE1logo 3"
-  - "di\xE1logo 4"
+  - 'The famous city of CyberCity is known for "never sleeping", as its people are
+    very active at night.
+
+'
+  - But this city will soon become known for one more thing.
   dialogueImage: {fileID: 21300000, guid: a88c683fdabc0c74faa265210d5b7f23, type: 3}
