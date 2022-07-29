@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Scene 5
   m_EditorClassIdentifier: 
   dialogue:
-  - "di\xE1logo 12"
+  - "These competitions are called \"Rap Tap\" and her dream is to compete in one
+    and be recognized for her talent.\r"
   dialogueImage: {fileID: 21300000, guid: 442622d95b5bdcc48bcca83478574d41, type: 3}
