@@ -85,6 +85,7 @@ public class BuyingVisualItem : MonoBehaviour
         duplicateVisualButton.GetComponent<VisualInventoryButton>().visualItem = visualItem;
         duplicateVisualButton.GetComponent<VisualInventoryButton>().redPanda = visualProduct;
         duplicateVisualButton.GetComponent<VisualInventoryButton>().inv = inv;
+        duplicateVisualButton.GetComponent<Image>().sprite = visualItem.trueImage;
     }
     
     

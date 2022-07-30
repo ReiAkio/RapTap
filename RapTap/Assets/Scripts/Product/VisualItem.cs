@@ -7,4 +7,5 @@ using UnityEngine;
 public class VisualItem : Product
 {
     public RuntimeAnimatorController image;
+    public Sprite trueImage;
 }
