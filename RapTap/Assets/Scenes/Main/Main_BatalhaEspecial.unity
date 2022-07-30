@@ -354,7 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHype: 500
   hypeBar: {fileID: 831094118}
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 316438661}
 --- !u!95 &316438661
 Animator:
   serializedVersion: 3
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHype: 500
   hypePps: 20
-  enemyAnimator: {fileID: 0}
+  enemyAnimator: {fileID: 351659220}
   hypeBar: {fileID: 571393255}
 --- !u!1 &436373299
 GameObject:
@@ -1347,44 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d34f43e34861f454a85b19c67b32051b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  streetLightComp: {fileID: 2103408113}
-  colors:
-  - r: 0.7529412
-    g: 0.5372549
-    b: 0.9411765
-    a: 1
-  - r: 0.7529412
-    g: 0.5372549
-    b: 0.9411765
-    a: 1
-  - r: 0.4627451
-    g: 0.8
-    b: 0.99215686
-    a: 1
-  - r: 0.8666667
-    g: 0.3647059
-    b: 1
-    a: 1
-  - r: 0.83137256
-    g: 0.9529412
-    b: 0.38431373
-    a: 1
-  - r: 0.6
-    g: 1
-    b: 1
-    a: 1
-  - r: 1
-    g: 1
-    b: 0.6
-    a: 1
-  - r: 0.99215686
-    g: 0.84313726
-    b: 0.42745098
-    a: 1
-  - r: 1
-    g: 0.3529412
-    b: 0.5647059
-    a: 1
 --- !u!1001 &1594419109
 PrefabInstance:
   m_ObjectHideFlags: 0
