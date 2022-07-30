@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHype: 500
-  hypePps: 20
+  hypePps: 60
   enemyAnimator: {fileID: 351659220}
   hypeBar: {fileID: 571393255}
 --- !u!1 &436373299
