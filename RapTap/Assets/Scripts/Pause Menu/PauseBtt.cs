@@ -27,8 +27,8 @@ public class PauseBtt : MonoBehaviour
 
     public void Quit()
     {
-        //Application.Quit();   (CORRETO)
-        UnityEditor.EditorApplication.isPlaying = false; // (PROVISÓRIO) Para funcionar no editor
+        Application.Quit();
+        // UnityEditor.EditorApplication.isPlaying = false; // (PROVISï¿½RIO) Para funcionar no editor
     }
 
     public void Open_Configs()
