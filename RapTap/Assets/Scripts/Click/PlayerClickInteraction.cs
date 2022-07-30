@@ -43,10 +43,7 @@ public class PlayerClickInteraction : MonoBehaviour
         {
             if (runTime - clickTime > 1)
             {
-                isRap = false;
-                PlayerAnimator.SetBool("isRapping", isRap);
-                BoomboxAnimator.SetBool("isRapping", isRap);
-                audioScript.PauseRapMusic();
+                StopRapping();
             }
         }
         
@@ -117,5 +114,13 @@ public class PlayerClickInteraction : MonoBehaviour
     void AnimationEnded()
     {
         PlayerAnimator.SetInteger("nLoops",PlayerAnimator.GetInteger("nLoops")-1);
+    }
+
+    public void StopRapping ()
+    {
+        isRap = false;
+        PlayerAnimator.SetBool("isRapping", isRap);
+        BoomboxAnimator.SetBool("isRapping", isRap);
+        audioScript.PauseRapMusic();
     }
 }
