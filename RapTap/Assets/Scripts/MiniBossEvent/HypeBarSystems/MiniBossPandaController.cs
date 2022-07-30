@@ -38,6 +38,11 @@ namespace MiniBossEvent
             _currentHype += hypepoints;
             hypeBar.SetHype(_currentHype);
         }
+
+        void AnimationEnded()
+        {
+            playerAnimator.SetInteger("nLoops", playerAnimator.GetInteger("nLoops") - 1);
+        }
     }
 }
 

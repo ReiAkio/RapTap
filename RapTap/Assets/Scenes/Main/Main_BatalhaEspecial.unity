@@ -1313,7 +1313,7 @@ SpriteRenderer:
   m_Size: {x: 0.9, y: 0.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1378422415
@@ -1326,7 +1326,7 @@ Animator:
   m_GameObject: {fileID: 1378422412}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d78cac0d2ac42ac45a4b338b452255b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 349f2e338c76343428e50eeccbb10e29, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1344,9 +1344,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1378422412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d34f43e34861f454a85b19c67b32051b, type: 3}
+  m_Script: {fileID: 11500000, guid: f25b8214beccdc546947d9a70e678c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  streetLightComp: {fileID: 2103408113}
 --- !u!1001 &1594419109
 PrefabInstance:
   m_ObjectHideFlags: 0
