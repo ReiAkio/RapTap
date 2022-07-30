@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: BuffItem03
   m_EditorClassIdentifier: 
   name: BuffItem03
-  cost: 0
-  id: 0
-  buffClick: 0
+  cost: 800
+  id: 3
+  buffClick: 3

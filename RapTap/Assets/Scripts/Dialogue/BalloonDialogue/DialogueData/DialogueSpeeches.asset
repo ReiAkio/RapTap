@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: DialogueSpeeches
   m_EditorClassIdentifier: 
   dialogue:
-  - PRIMEIRO DIALOGO
-  - SEGUNDO DIALOGO
-  - TERCEIRO DIALOGO
+  - Wow,  she is so good
+  - You're Rappin'it
+  - Can anyone win against her?
+  - Maybe the king can win
+  - That is so dope
