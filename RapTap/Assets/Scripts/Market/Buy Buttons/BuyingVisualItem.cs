@@ -72,6 +72,7 @@ public class BuyingVisualItem : MonoBehaviour
     {
         visualInventory.AddItem(visualItem);
         visualProduct.SetActive(true);
+        visualProduct.GetComponent<PlayerClickInteraction>().StopRapping();
         visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
     }
 
