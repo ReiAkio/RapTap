@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main/Main_Game.unity
     guid: 89b777e2ae80647498fca7fb1610a160
+  - enabled: 1
+    path: Assets/Scenes/Main/Main_BatalhaEspecial.unity
+    guid: 54d1486aae384a648a697feec52ecadf
   m_configObjects: {}

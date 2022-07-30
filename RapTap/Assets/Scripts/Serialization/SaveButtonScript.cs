@@ -6,6 +6,7 @@ public class SaveButtonScript : MonoBehaviour
 {
     public Clickable click;
     public InventorySerialization inv;
+    public MiniBossEvent.MainLl mainLl;
     public void Awake()
     {
         if (File.Exists(Application.persistentDataPath + "/savedata.save"))
@@ -26,18 +27,19 @@ public class SaveButtonScript : MonoBehaviour
                 inv.buffItems[i] = item;
                 i++;
             }
+            mainLl.countEventAlreadyHappen = saveData.countEventAlreadyHappen;
         }
         StartCoroutine(TimedSave());
     }
 
     public void OnClick()
     {
-        SaveSystem.SaveGame(click, inv);
+        SaveSystem.SaveGame(click, inv, mainLl);
     }
 
     public IEnumerator TimedSave()
     {
-        SaveSystem.SaveGame(click, inv);
+        SaveSystem.SaveGame(click, inv, mainLl);
         yield return new WaitForSeconds(10f);
         StartCoroutine(TimedSave());
     }

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public static class SaveSystem
 {
-    public static void SaveGame(Clickable clickData, InventorySerialization inv)
+    public static void SaveGame(Clickable clickData, InventorySerialization inv, MiniBossEvent.MainLl mainLl)
     {
         BinaryFormatter formatter = new BinaryFormatter();
         string path = Application.persistentDataPath + "/savedata.save";
         FileStream stream = new FileStream(path, FileMode.Create);
-        SaveData saveData = new SaveData(clickData, inv);
+        SaveData saveData = new SaveData(clickData, inv, mainLl);
         formatter.Serialize(stream, saveData);
         stream.Close();
     }
