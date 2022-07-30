@@ -16,3 +16,4 @@ MonoBehaviour:
   cost: 15
   id: 2
   image: {fileID: 22100000, guid: 3b93111d1bfc4484b93760b2ee4fef74, type: 2}
+  trueImage: {fileID: -4357241564689522147, guid: 8b2e8c545c67f634db2811df5df93a9b, type: 3}
