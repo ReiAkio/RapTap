@@ -11,6 +11,10 @@ namespace MiniBossEvent
         
         private int _currentHype;
 
+        [SerializeField] private AudioManager audioScript;
+        //private float timer;
+        //private float clickTime;
+
         void Start()
         {
             _currentHype = 0;
@@ -20,15 +24,22 @@ namespace MiniBossEvent
     
         private void Update()
         {
+            //timer += Time.deltaTime;
+
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 GetHype(10);
+                //clickTime = timer;
                 playerAnimator.SetBool("isRapping", true);
+                audioScript.PlayRapMusic();
+                audioScript.PlayClickSFX();
             }
-            
+
+            //if(playerAnimator.GetBool("isRapping") && timer - clickTime > 1)
             else if (playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
                 playerAnimator.SetBool("isRapping", false);
+                audioScript.PauseRapMusic();
             }
         }
 
