@@ -1,205 +1,241 @@
 fileFormatVersion: 2
-guid: 623a596419e1a77428b6f5f4e2ef6a5b
+guid: 34720013a466a2f46bca8a27e1ea0805
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -17416899695951269
-    second: Animacao_placa_60ms 1_0
+      213: -4558260234783773225
+    second: Animacao_placa60ms_0
   - first:
-      213: 6243768675510415495
-    second: Animacao_placa_60ms 1_1
+      213: -7080116863555515368
+    second: Animacao_placa60ms_1
   - first:
-      213: 8379848602144495061
-    second: Animacao_placa_60ms 1_2
+      213: 5544351994538312399
+    second: Animacao_placa60ms_2
   - first:
-      213: -2138339049289155124
-    second: Animacao_placa_60ms 1_3
+      213: 6198241038910573167
+    second: Animacao_placa60ms_3
   - first:
-      213: -2130914063128058214
-    second: Animacao_placa_60ms 1_4
+      213: 4192270957567585474
+    second: Animacao_placa60ms_4
   - first:
-      213: 3783307270865167942
-    second: Animacao_placa_60ms 1_5
+      213: -7734840711015606852
+    second: Animacao_placa60ms_5
   - first:
-      213: 4370586125697240098
-    second: Animacao_placa_60ms 1_6
+      213: 6893131891873340759
+    second: Animacao_placa60ms_6
   - first:
-      213: 4382117767916718421
-    second: Animacao_placa_60ms 1_7
+      213: 3503866560591121398
+    second: Animacao_placa60ms_7
   - first:
-      213: 7534067289889295255
-    second: Animacao_placa_60ms 1_8
+      213: 5917046240974810863
+    second: Animacao_placa60ms_8
   - first:
-      213: 2477655230131074923
-    second: Animacao_placa_60ms 1_9
+      213: 7778634043339983900
+    second: Animacao_placa60ms_9
   - first:
-      213: -7477738420051059223
-    second: Animacao_placa_60ms 1_10
+      213: -532949191881706741
+    second: Animacao_placa60ms_10
   - first:
-      213: -6900523535655978094
-    second: Animacao_placa_60ms 1_11
+      213: 784281992165134228
+    second: Animacao_placa60ms_11
   - first:
-      213: -3661165510698430733
-    second: Animacao_placa_60ms 1_12
+      213: 1761540945024886810
+    second: Animacao_placa60ms_12
   - first:
-      213: -6983450481012028309
-    second: Animacao_placa_60ms 1_13
+      213: 7998996465040580474
+    second: Animacao_placa60ms_13
   - first:
-      213: 1818288858385505841
-    second: Animacao_placa_60ms 1_14
+      213: -1801925753499026099
+    second: Animacao_placa60ms_14
   - first:
-      213: 5002061084882254977
-    second: Animacao_placa_60ms 1_15
+      213: -7348764159589147412
+    second: Animacao_placa60ms_15
   - first:
-      213: 860838946822050817
-    second: Animacao_placa_60ms 1_16
+      213: -1664447408171999134
+    second: Animacao_placa60ms_16
   - first:
-      213: -1536560180928296656
-    second: Animacao_placa_60ms 1_17
+      213: -724717186221660624
+    second: Animacao_placa60ms_17
   - first:
-      213: 8691851335433203276
-    second: Animacao_placa_60ms 1_18
+      213: 4440881259534876993
+    second: Animacao_placa60ms_18
   - first:
-      213: -2550153927105039578
-    second: Animacao_placa_60ms 1_19
+      213: 6300041771062861127
+    second: Animacao_placa60ms_19
   - first:
-      213: -4310469909903782977
-    second: Animacao_placa_60ms 1_20
+      213: -6338866552383182097
+    second: Animacao_placa60ms_20
   - first:
-      213: -6862627033479778646
-    second: Animacao_placa_60ms 1_21
+      213: 4287117127236750716
+    second: Animacao_placa60ms_21
   - first:
-      213: 740080071224554920
-    second: Animacao_placa_60ms 1_22
+      213: -1801151470274591292
+    second: Animacao_placa60ms_22
   - first:
-      213: 4235049503393287390
-    second: Animacao_placa_60ms 1_23
+      213: -5611373634338278041
+    second: Animacao_placa60ms_23
   - first:
-      213: 9006816453622253454
-    second: Animacao_placa_60ms 1_24
+      213: 3764922519696920027
+    second: Animacao_placa60ms_24
   - first:
-      213: 5446222020104825810
-    second: Animacao_placa_60ms 1_25
+      213: 1307437167096690797
+    second: Animacao_placa60ms_25
   - first:
-      213: 8185495145520453012
-    second: Animacao_placa_60ms 1_26
+      213: -6154563360118190146
+    second: Animacao_placa60ms_26
   - first:
-      213: 8834765820752090756
-    second: Animacao_placa_60ms 1_27
+      213: -431059882908792225
+    second: Animacao_placa60ms_27
   - first:
-      213: -7797578894396354901
-    second: Animacao_placa_60ms 1_28
+      213: -285828661262785420
+    second: Animacao_placa60ms_28
   - first:
-      213: 6351430493325656250
-    second: Animacao_placa_60ms 1_29
+      213: 8269034017688859088
+    second: Animacao_placa60ms_29
   - first:
-      213: -4467464971389835581
-    second: Animacao_placa_60ms 1_30
+      213: 1772752322466513575
+    second: Animacao_placa60ms_30
   - first:
-      213: -58129688425879253
-    second: Animacao_placa_60ms 1_31
+      213: -6708191418659456763
+    second: Animacao_placa60ms_31
   - first:
-      213: -1000319988263169057
-    second: Animacao_placa_60ms 1_32
+      213: -1288662650196874562
+    second: Animacao_placa60ms_32
   - first:
-      213: 733251157052603688
-    second: Animacao_placa_60ms 1_33
+      213: -7934059556381517255
+    second: Animacao_placa60ms_33
   - first:
-      213: -3429675068254890755
-    second: Animacao_placa_60ms 1_34
+      213: -6387321156386926078
+    second: Animacao_placa60ms_34
   - first:
-      213: -3607784131237745174
-    second: Animacao_placa_60ms 1_35
+      213: -3871578581122845169
+    second: Animacao_placa60ms_35
   - first:
-      213: 4158366522563365289
-    second: Animacao_placa_60ms 1_36
+      213: 7951940147359911734
+    second: Animacao_placa60ms_36
   - first:
-      213: 5642872016689501950
-    second: Animacao_placa_60ms 1_37
+      213: -4096009773406925339
+    second: Animacao_placa60ms_37
   - first:
-      213: 8643441391799281866
-    second: Animacao_placa_60ms 1_38
+      213: -6848589923754738043
+    second: Animacao_placa60ms_38
   - first:
-      213: 7189790722010259168
-    second: Animacao_placa_60ms 1_39
+      213: 2451970681969693894
+    second: Animacao_placa60ms_39
   - first:
-      213: 5497518952877824945
-    second: Animacao_placa_60ms 1_40
+      213: -4160829336980519424
+    second: Animacao_placa60ms_40
   - first:
-      213: -6172694876658327418
-    second: Animacao_placa_60ms 1_41
+      213: 8688292122808515933
+    second: Animacao_placa60ms_41
   - first:
-      213: 3092516201261114489
-    second: Animacao_placa_60ms 1_42
+      213: -3127006075482072133
+    second: Animacao_placa60ms_42
   - first:
-      213: -4285306484276122684
-    second: Animacao_placa_60ms 1_43
+      213: 4350231387767926660
+    second: Animacao_placa60ms_43
   - first:
-      213: -8178275027959291922
-    second: Animacao_placa_60ms 1_44
+      213: -4285685084445135990
+    second: Animacao_placa60ms_44
   - first:
-      213: -280384415337775137
-    second: Animacao_placa_60ms 1_45
+      213: -3496296378354026118
+    second: Animacao_placa60ms_45
   - first:
-      213: 6588055964413425436
-    second: Animacao_placa_60ms 1_46
+      213: 2783626682192053015
+    second: Animacao_placa60ms_46
   - first:
-      213: 6447259607811537274
-    second: Animacao_placa_60ms 1_47
+      213: -8470283414267525763
+    second: Animacao_placa60ms_47
   - first:
-      213: 8103810985959199296
-    second: Animacao_placa_60ms 1_48
+      213: 1974531523575235228
+    second: Animacao_placa60ms_48
   - first:
-      213: -8865993503795624530
-    second: Animacao_placa_60ms 1_49
+      213: 6379477341347409954
+    second: Animacao_placa60ms_49
   - first:
-      213: -2427445675739450825
-    second: Animacao_placa_60ms 1_50
+      213: -6331909409136343820
+    second: Animacao_placa60ms_50
   - first:
-      213: -6476025345529211170
-    second: Animacao_placa_60ms 1_51
+      213: 3790237136071540449
+    second: Animacao_placa60ms_51
   - first:
-      213: 8490528590905750688
-    second: Animacao_placa_60ms 1_52
+      213: 1085102949206642738
+    second: Animacao_placa60ms_52
   - first:
-      213: 5637003903056457362
-    second: Animacao_placa_60ms 1_53
+      213: -8882597556037372641
+    second: Animacao_placa60ms_53
   - first:
-      213: -7430973200728401137
-    second: Animacao_placa_60ms 1_54
+      213: -1782138684527572209
+    second: Animacao_placa60ms_54
   - first:
-      213: -3301313747760227676
-    second: Animacao_placa_60ms 1_55
+      213: 4865269367102131046
+    second: Animacao_placa60ms_55
   - first:
-      213: 970691257390211160
-    second: Animacao_placa_60ms 1_56
+      213: -3847982892592851452
+    second: Animacao_placa60ms_56
   - first:
-      213: 7047497534607012599
-    second: Animacao_placa_60ms 1_57
+      213: -5476031304635562309
+    second: Animacao_placa60ms_57
   - first:
-      213: 4486281255149771788
-    second: Animacao_placa_60ms 1_58
+      213: 4428043368647522432
+    second: Animacao_placa60ms_58
   - first:
-      213: 5897852623896771260
-    second: Animacao_placa_60ms 1_59
+      213: 4764833667189350639
+    second: Animacao_placa60ms_59
   - first:
-      213: -2309231411065756947
-    second: Animacao_placa_60ms 1_60
+      213: 6514655213821134734
+    second: Animacao_placa60ms_60
   - first:
-      213: 4867229206234924880
-    second: Animacao_placa_60ms 1_61
+      213: -5699135769604345756
+    second: Animacao_placa60ms_61
   - first:
-      213: 6465774916366127984
-    second: Animacao_placa_60ms 1_62
+      213: 1797759196642739290
+    second: Animacao_placa60ms_62
   - first:
-      213: -2865002510572924684
-    second: Animacao_placa_60ms 1_63
+      213: 6566413066217973707
+    second: Animacao_placa60ms_63
   - first:
-      213: 3166012387518868049
-    second: Animacao_placa_60ms 1_64
+      213: 2428385367344959459
+    second: Animacao_placa60ms_64
   - first:
-      213: -4218632328571196352
-    second: Animacao_placa_60ms 1_65
+      213: -2288201894856854610
+    second: Animacao_placa60ms_65
+  - first:
+      213: -6940388038079855485
+    second: Animacao_placa60ms_66
+  - first:
+      213: -35247216574472337
+    second: Animacao_placa60ms_67
+  - first:
+      213: -2711797685678036208
+    second: Animacao_placa60ms_68
+  - first:
+      213: -7874954007351312011
+    second: Animacao_placa60ms_69
+  - first:
+      213: -4840912139809525000
+    second: Animacao_placa60ms_70
+  - first:
+      213: 8664942756385551839
+    second: Animacao_placa60ms_71
+  - first:
+      213: 6027773568496292589
+    second: Animacao_placa60ms_72
+  - first:
+      213: 2015575913303953361
+    second: Animacao_placa60ms_73
+  - first:
+      213: 8943759582183916962
+    second: Animacao_placa60ms_74
+  - first:
+      213: -1488420861857358592
+    second: Animacao_placa60ms_75
+  - first:
+      213: 9010099763270535546
+    second: Animacao_placa60ms_76
+  - first:
+      213: 6973603333304252221
+    second: Animacao_placa60ms_77
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -264,7 +300,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -276,7 +312,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 1024
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -288,7 +324,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 1024
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -300,7 +336,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 1024
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -312,7 +348,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 1024
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -325,7 +361,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_0
+      name: Animacao_placa60ms_0
       rect:
         serializedVersion: 2
         x: 0
@@ -339,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b52c8880c6f12cff0800000000000000
-      internalID: -17416899695951269
+      spriteID: 7ddace7977ecdb0c0800000000000000
+      internalID: -4558260234783773225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_1
+      name: Animacao_placa60ms_1
       rect:
         serializedVersion: 2
         x: 32
@@ -360,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 780728b878256a650800000000000000
-      internalID: 6243768675510415495
+      spriteID: 81c4583893f5ebd90800000000000000
+      internalID: -7080116863555515368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_2
+      name: Animacao_placa60ms_2
       rect:
         serializedVersion: 2
         x: 64
@@ -381,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d55062c7e33b4470800000000000000
-      internalID: 8379848602144495061
+      spriteID: fc24f2883ce71fc40800000000000000
+      internalID: 5544351994538312399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_3
+      name: Animacao_placa60ms_3
       rect:
         serializedVersion: 2
         x: 96
@@ -402,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdf5cdc6f71352e0800000000000000
-      internalID: -2138339049289155124
+      spriteID: f6a438c9263940650800000000000000
+      internalID: 6198241038910573167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_4
+      name: Animacao_placa60ms_4
       rect:
         serializedVersion: 2
         x: 128
@@ -423,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a962e5c13f87d62e0800000000000000
-      internalID: -2130914063128058214
+      spriteID: 2cca00c6930fd2a30800000000000000
+      internalID: 4192270957567585474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_5
+      name: Animacao_placa60ms_5
       rect:
         serializedVersion: 2
         x: 160
@@ -444,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64622140be1018430800000000000000
-      internalID: 3783307270865167942
+      spriteID: cb55fa1ba5358a490800000000000000
+      internalID: -7734840711015606852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_6
+      name: Animacao_placa60ms_6
       rect:
         serializedVersion: 2
         x: 192
@@ -465,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22c4f6acce077ac30800000000000000
-      internalID: 4370586125697240098
+      spriteID: 75dd60d2fe259af50800000000000000
+      internalID: 6893131891873340759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_7
+      name: Animacao_placa60ms_7
       rect:
         serializedVersion: 2
         x: 224
@@ -486,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5598a9874e860dc30800000000000000
-      internalID: 4382117767916718421
+      spriteID: 6fb4764921c30a030800000000000000
+      internalID: 3503866560591121398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_8
+      name: Animacao_placa60ms_8
       rect:
         serializedVersion: 2
         x: 256
@@ -507,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79bcdbf68426e8860800000000000000
-      internalID: 7534067289889295255
+      spriteID: fee2dd0d4329d1250800000000000000
+      internalID: 5917046240974810863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_9
+      name: Animacao_placa60ms_9
       rect:
         serializedVersion: 2
         x: 288
@@ -528,14 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b67f9dbfd46626220800000000000000
-      internalID: 2477655230131074923
+      spriteID: c1c4a0f037243fb60800000000000000
+      internalID: 7778634043339983900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_10
+      name: Animacao_placa60ms_10
       rect:
         serializedVersion: 2
         x: 320
@@ -549,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9edd095968cb93890800000000000000
-      internalID: -7477738420051059223
+      spriteID: b033f8e98859a98f0800000000000000
+      internalID: -532949191881706741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_11
+      name: Animacao_placa60ms_11
       rect:
         serializedVersion: 2
         x: 352
@@ -570,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29bb005a76a6c30a0800000000000000
-      internalID: -6900523535655978094
+      spriteID: 49f0dba015452ea00800000000000000
+      internalID: 784281992165134228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_12
+      name: Animacao_placa60ms_12
       rect:
         serializedVersion: 2
         x: 384
@@ -591,14 +627,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe88ee9d5de03dc0800000000000000
-      internalID: -3661165510698430733
+      spriteID: a18a38d0820427810800000000000000
+      internalID: 1761540945024886810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_13
+      name: Animacao_placa60ms_13
       rect:
         serializedVersion: 2
         x: 416
@@ -612,14 +648,266 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6c4fb499ccc51f90800000000000000
-      internalID: -6983450481012028309
+      spriteID: a7f595a87e4220f60800000000000000
+      internalID: 7998996465040580474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_14
+      name: Animacao_placa60ms_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dff0ff2164ef6e0800000000000000
+      internalID: -1801925753499026099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec1199aee1f30a90800000000000000
+      internalID: -7348764159589147412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260a690a6e1b6e8e0800000000000000
+      internalID: -1664447408171999134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03623a01f8941f5f0800000000000000
+      internalID: -724717186221660624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141044c0afd21ad30800000000000000
+      internalID: 4440881259534876993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d135a9c9e3e6750800000000000000
+      internalID: 6300041771062861127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea68929472d708a0800000000000000
+      internalID: -6338866552383182097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d80772056ee7b30800000000000000
+      internalID: 4287117127236750716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54c9bd7460107e0800000000000000
+      internalID: -1801151470274591292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765364fe8656022b0800000000000000
+      internalID: -5611373634338278041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd47619511bf3430800000000000000
+      internalID: 3764922519696920027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68f0f62d23f42210800000000000000
+      internalID: 1307437167096690797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animacao_placa60ms_26
       rect:
         serializedVersion: 2
         x: 0
@@ -633,14 +921,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13e5e1f351cdb3910800000000000000
-      internalID: 1818288858385505841
+      spriteID: ebf45847b39969aa0800000000000000
+      internalID: -6154563360118190146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_15
+      name: Animacao_placa60ms_27
       rect:
         serializedVersion: 2
         x: 32
@@ -654,14 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c363dfd04ea6540800000000000000
-      internalID: 5002061084882254977
+      spriteID: f5acc420251940af0800000000000000
+      internalID: -431059882908792225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_16
+      name: Animacao_placa60ms_28
       rect:
         serializedVersion: 2
         x: 64
@@ -675,14 +963,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1045622167052fb00800000000000000
-      internalID: 860838946822050817
+      spriteID: 4746ec2d858880cf0800000000000000
+      internalID: -285828661262785420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_17
+      name: Animacao_placa60ms_29
       rect:
         serializedVersion: 2
         x: 96
@@ -696,14 +984,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03942cf08aa0daae0800000000000000
-      internalID: -1536560180928296656
+      spriteID: 0d137fbb0a281c270800000000000000
+      internalID: 8269034017688859088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_18
+      name: Animacao_placa60ms_30
       rect:
         serializedVersion: 2
         x: 128
@@ -717,14 +1005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4e2009fcb8af9870800000000000000
-      internalID: 8691851335433203276
+      spriteID: 7a28d5748d41a9810800000000000000
+      internalID: 1772752322466513575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_19
+      name: Animacao_placa60ms_31
       rect:
         serializedVersion: 2
         x: 160
@@ -738,14 +1026,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623365cb3880c9cd0800000000000000
-      internalID: -2550153927105039578
+      spriteID: 509ba7d3277b7e2a0800000000000000
+      internalID: -6708191418659456763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_20
+      name: Animacao_placa60ms_32
       rect:
         serializedVersion: 2
         x: 192
@@ -759,14 +1047,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbbcc2d64722e24c0800000000000000
-      internalID: -4310469909903782977
+      spriteID: ebaa3b3b520cd1ee0800000000000000
+      internalID: -1288662650196874562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_21
+      name: Animacao_placa60ms_33
       rect:
         serializedVersion: 2
         x: 224
@@ -780,14 +1068,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaee173a21d03c0a0800000000000000
-      internalID: -6862627033479778646
+      spriteID: 93a1613bede84e190800000000000000
+      internalID: -7934059556381517255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_22
+      name: Animacao_placa60ms_34
       rect:
         serializedVersion: 2
         x: 256
@@ -801,14 +1089,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a57fa657ea454a00800000000000000
-      internalID: 740080071224554920
+      spriteID: 202583fef3dab57a0800000000000000
+      internalID: -6387321156386926078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_23
+      name: Animacao_placa60ms_35
       rect:
         serializedVersion: 2
         x: 288
@@ -822,14 +1110,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc83f7c51be5ca30800000000000000
-      internalID: 4235049503393287390
+      spriteID: f0679200bc3654ac0800000000000000
+      internalID: -3871578581122845169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_24
+      name: Animacao_placa60ms_36
       rect:
         serializedVersion: 2
         x: 320
@@ -843,14 +1131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e874c4b28d3aefc70800000000000000
-      internalID: 9006816453622253454
+      spriteID: 63f0e8ece67fa5e60800000000000000
+      internalID: 7951940147359911734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_25
+      name: Animacao_placa60ms_37
       rect:
         serializedVersion: 2
         x: 352
@@ -864,14 +1152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2db224c621ed49b40800000000000000
-      internalID: 5446222020104825810
+      spriteID: 5ed4d8b00dc0827c0800000000000000
+      internalID: -4096009773406925339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_26
+      name: Animacao_placa60ms_38
       rect:
         serializedVersion: 2
         x: 384
@@ -885,14 +1173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4955e6b5778b89170800000000000000
-      internalID: 8185495145520453012
+      spriteID: 58e774eefbbe4f0a0800000000000000
+      internalID: -6848589923754738043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_27
+      name: Animacao_placa60ms_39
       rect:
         serializedVersion: 2
         x: 416
@@ -906,14 +1194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486d0b394b46b9a70800000000000000
-      internalID: 8834765820752090756
+      spriteID: 6c4d97a1856270220800000000000000
+      internalID: 2451970681969693894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_28
+      name: Animacao_placa60ms_40
       rect:
         serializedVersion: 2
         x: 448
@@ -927,14 +1215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bae0c631f4f69c390800000000000000
-      internalID: -7797578894396354901
+      spriteID: 006804653c3c146c0800000000000000
+      internalID: -4160829336980519424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_29
+      name: Animacao_placa60ms_41
       rect:
         serializedVersion: 2
         x: 480
@@ -948,14 +1236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab08242e160d42850800000000000000
-      internalID: 6351430493325656250
+      spriteID: d5d73d437a3039870800000000000000
+      internalID: 8688292122808515933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_30
+      name: Animacao_placa60ms_42
       rect:
         serializedVersion: 2
         x: 512
@@ -969,14 +1257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c6eec537406002c0800000000000000
-      internalID: -4467464971389835581
+      spriteID: bbb176cba84aa94d0800000000000000
+      internalID: -3127006075482072133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_31
+      name: Animacao_placa60ms_43
       rect:
         serializedVersion: 2
         x: 544
@@ -990,14 +1278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29a87a3b5b713ff0800000000000000
-      internalID: -58129688425879253
+      spriteID: 48f69ae06602f5c30800000000000000
+      internalID: 4350231387767926660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_32
+      name: Animacao_placa60ms_44
       rect:
         serializedVersion: 2
         x: 576
@@ -1011,14 +1299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd3d9d545462e12f0800000000000000
-      internalID: -1000319988263169057
+      spriteID: a8b257a4f103684c0800000000000000
+      internalID: -4285685084445135990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_33
+      name: Animacao_placa60ms_45
       rect:
         serializedVersion: 2
         x: 608
@@ -1032,14 +1320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82db34bda080d2a00800000000000000
-      internalID: 733251157052603688
+      spriteID: a7939b2d7f8aa7fc0800000000000000
+      internalID: -3496296378354026118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_34
+      name: Animacao_placa60ms_46
       rect:
         serializedVersion: 2
         x: 640
@@ -1053,14 +1341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df457a552b85760d0800000000000000
-      internalID: -3429675068254890755
+      spriteID: 7134b5b18bd61a620800000000000000
+      internalID: 2783626682192053015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_35
+      name: Animacao_placa60ms_47
       rect:
         serializedVersion: 2
         x: 672
@@ -1074,14 +1362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed684f82739eedc0800000000000000
-      internalID: -3607784131237745174
+      spriteID: d7583b9bc12837a80800000000000000
+      internalID: -8470283414267525763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_36
+      name: Animacao_placa60ms_48
       rect:
         serializedVersion: 2
         x: 704
@@ -1095,14 +1383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9044ff15c75b930800000000000000
-      internalID: 4158366522563365289
+      spriteID: c92438c85f1f66b10800000000000000
+      internalID: 1974531523575235228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_37
+      name: Animacao_placa60ms_49
       rect:
         serializedVersion: 2
         x: 736
@@ -1116,14 +1404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef615c3b3328f4e40800000000000000
-      internalID: 5642872016689501950
+      spriteID: 2207aaf87d4788850800000000000000
+      internalID: 6379477341347409954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_38
+      name: Animacao_placa60ms_50
       rect:
         serializedVersion: 2
         x: 768
@@ -1137,14 +1425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac8aa13a62ca3f770800000000000000
-      internalID: 8643441391799281866
+      spriteID: 4f48976b0f98028a0800000000000000
+      internalID: -6331909409136343820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_39
+      name: Animacao_placa60ms_51
       rect:
         serializedVersion: 2
         x: 800
@@ -1158,14 +1446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ee12da819447c360800000000000000
-      internalID: 7189790722010259168
+      spriteID: 1eeb90ef790a99430800000000000000
+      internalID: 3790237136071540449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_40
+      name: Animacao_placa60ms_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1179,14 +1467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb924c4c5c1b4c40800000000000000
-      internalID: 5497518952877824945
+      spriteID: 230d038126f0f0f00800000000000000
+      internalID: 1085102949206642738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_41
+      name: Animacao_placa60ms_53
       rect:
         serializedVersion: 2
         x: 32
@@ -1200,14 +1488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68028e9c6be265aa0800000000000000
-      internalID: -6172694876658327418
+      spriteID: f15b3a5b59caab480800000000000000
+      internalID: -8882597556037372641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_42
+      name: Animacao_placa60ms_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1221,14 +1509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9742f46a913daea20800000000000000
-      internalID: 3092516201261114489
+      spriteID: f0b80400f429447e0800000000000000
+      internalID: -1782138684527572209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_43
+      name: Animacao_placa60ms_55
       rect:
         serializedVersion: 2
         x: 96
@@ -1242,14 +1530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb2b0305788784c0800000000000000
-      internalID: -4285306484276122684
+      spriteID: 66b46ba46b8e48340800000000000000
+      internalID: 4865269367102131046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_44
+      name: Animacao_placa60ms_56
       rect:
         serializedVersion: 2
         x: 128
@@ -1263,14 +1551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eefd903413ee08e80800000000000000
-      internalID: -8178275027959291922
+      spriteID: 406193952f7399ac0800000000000000
+      internalID: -3847982892592851452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_45
+      name: Animacao_placa60ms_57
       rect:
         serializedVersion: 2
         x: 160
@@ -1284,14 +1572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf7c3b1cdfdb1cf0800000000000000
-      internalID: -280384415337775137
+      spriteID: bb6474caa8a3104b0800000000000000
+      internalID: -5476031304635562309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_46
+      name: Animacao_placa60ms_58
       rect:
         serializedVersion: 2
         x: 192
@@ -1305,14 +1593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17714f9ef97d6b50800000000000000
-      internalID: 6588055964413425436
+      spriteID: 0887246abf1937d30800000000000000
+      internalID: 4428043368647522432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_47
+      name: Animacao_placa60ms_59
       rect:
         serializedVersion: 2
         x: 224
@@ -1326,14 +1614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a79b45a4474497950800000000000000
-      internalID: 6447259607811537274
+      spriteID: fe0a4a2a9f6102240800000000000000
+      internalID: 4764833667189350639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_48
+      name: Animacao_placa60ms_60
       rect:
         serializedVersion: 2
         x: 256
@@ -1347,14 +1635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0429109e725867070800000000000000
-      internalID: 8103810985959199296
+      spriteID: e8784fd9664b86a50800000000000000
+      internalID: 6514655213821134734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_49
+      name: Animacao_placa60ms_61
       rect:
         serializedVersion: 2
         x: 288
@@ -1368,14 +1656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea54751e1e9a5f480800000000000000
-      internalID: -8865993503795624530
+      spriteID: 460b20e763a98e0b0800000000000000
+      internalID: -5699135769604345756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_50
+      name: Animacao_placa60ms_62
       rect:
         serializedVersion: 2
         x: 320
@@ -1389,14 +1677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732fdf1e40bff4ed0800000000000000
-      internalID: -2427445675739450825
+      spriteID: a540593e67ce2f810800000000000000
+      internalID: 1797759196642739290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_51
+      name: Animacao_placa60ms_63
       rect:
         serializedVersion: 2
         x: 352
@@ -1410,14 +1698,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed61e4b72498026a0800000000000000
-      internalID: -6476025345529211170
+      spriteID: bc7e764b4e5902b50800000000000000
+      internalID: 6566413066217973707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_52
+      name: Animacao_placa60ms_64
       rect:
         serializedVersion: 2
         x: 384
@@ -1431,14 +1719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a43c38c4ca64d570800000000000000
-      internalID: 8490528590905750688
+      spriteID: 3ef4a5e10ab53b120800000000000000
+      internalID: 2428385367344959459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_53
+      name: Animacao_placa60ms_65
       rect:
         serializedVersion: 2
         x: 416
@@ -1452,14 +1740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29eab270f29aa3e40800000000000000
-      internalID: 5637003903056457362
+      spriteID: ea37ea2008cae30e0800000000000000
+      internalID: -2288201894856854610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_54
+      name: Animacao_placa60ms_66
       rect:
         serializedVersion: 2
         x: 448
@@ -1473,14 +1761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0bd223be31efd890800000000000000
-      internalID: -7430973200728401137
+      spriteID: 38441e2e9d9ceaf90800000000000000
+      internalID: -6940388038079855485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_55
+      name: Animacao_placa60ms_67
       rect:
         serializedVersion: 2
         x: 480
@@ -1494,14 +1782,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aa53a433a06f22d0800000000000000
-      internalID: -3301313747760227676
+      spriteID: f6fd1c0e7d6c28ff0800000000000000
+      internalID: -35247216574472337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_56
+      name: Animacao_placa60ms_68
       rect:
         serializedVersion: 2
         x: 512
@@ -1515,14 +1803,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850225f3e86987d00800000000000000
-      internalID: 970691257390211160
+      spriteID: 01b2f626f52cd5ad0800000000000000
+      internalID: -2711797685678036208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_57
+      name: Animacao_placa60ms_69
       rect:
         serializedVersion: 2
         x: 544
@@ -1536,14 +1824,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f231b12badbdc160800000000000000
-      internalID: 7047497534607012599
+      spriteID: 5714949bd0b86b290800000000000000
+      internalID: -7874954007351312011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_58
+      name: Animacao_placa60ms_70
       rect:
         serializedVersion: 2
         x: 576
@@ -1557,14 +1845,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0c12bf3809724e30800000000000000
-      internalID: 4486281255149771788
+      spriteID: 8f2f6cd9e00a1dcb0800000000000000
+      internalID: -4840912139809525000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_59
+      name: Animacao_placa60ms_71
       rect:
         serializedVersion: 2
         x: 608
@@ -1578,14 +1866,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbaf8f896b169d150800000000000000
-      internalID: 5897852623896771260
+      spriteID: fd57471378f004870800000000000000
+      internalID: 8664942756385551839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_60
+      name: Animacao_placa60ms_72
       rect:
         serializedVersion: 2
         x: 640
@@ -1599,14 +1887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de260473446f3ffd0800000000000000
-      internalID: -2309231411065756947
+      spriteID: de2d5b0cf14f6a350800000000000000
+      internalID: 6027773568496292589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_61
+      name: Animacao_placa60ms_73
       rect:
         serializedVersion: 2
         x: 672
@@ -1620,14 +1908,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0570a06ec2fdb8340800000000000000
-      internalID: 4867229206234924880
+      spriteID: 1dfc05a3d93c8fb10800000000000000
+      internalID: 2015575913303953361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_62
+      name: Animacao_placa60ms_74
       rect:
         serializedVersion: 2
         x: 704
@@ -1641,14 +1929,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07352af770c0bb950800000000000000
-      internalID: 6465774916366127984
+      spriteID: 2a5819434fd9e1c70800000000000000
+      internalID: 8943759582183916962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_63
+      name: Animacao_placa60ms_75
       rect:
         serializedVersion: 2
         x: 736
@@ -1662,14 +1950,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f0d2b465677d38d0800000000000000
-      internalID: -2865002510572924684
+      spriteID: 00d16b4bc11185be0800000000000000
+      internalID: -1488420861857358592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_64
+      name: Animacao_placa60ms_76
       rect:
         serializedVersion: 2
         x: 768
@@ -1683,14 +1971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15a6c800e7fefeb20800000000000000
-      internalID: 3166012387518868049
+      spriteID: a7942944ffd4a0d70800000000000000
+      internalID: 9010099763270535546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animacao_placa_60ms 1_65
+      name: Animacao_placa60ms_77
       rect:
         serializedVersion: 2
         x: 800
@@ -1704,8 +1992,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04ce8899f386475c0800000000000000
-      internalID: -4218632328571196352
+      spriteID: d37741ea84737c060800000000000000
+      internalID: 6973603333304252221
       vertices: []
       indices: 
       edges: []
