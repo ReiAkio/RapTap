@@ -5,7 +5,6 @@ using UnityEngine;
 /// </summary>
 public class MarketButtons : MonoBehaviour
 {
-    public GameObject visual;
 
     public void PressButtonInventory(GameObject thisImage)
     {
@@ -18,9 +17,9 @@ public class MarketButtons : MonoBehaviour
     public void PressButtonShop(GameObject thisImage)
     {
         thisImage.SetActive(true);
-        visual.gameObject.SetActive(false);
         thisImage.transform.SetAsLastSibling();// Para 
         thisImage.transform.parent.GetChild(0).gameObject.SetActive(false);
-        
+        thisImage.transform.GetChild(0).GetChild(1).gameObject.SetActive(true);
+        thisImage.transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
     }
 }
