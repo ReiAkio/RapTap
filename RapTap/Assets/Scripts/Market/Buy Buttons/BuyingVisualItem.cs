@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
 using UnityEngine.UI;
@@ -34,12 +35,15 @@ public class BuyingVisualItem : MonoBehaviour
         if (!aux)
         {
             this.gameObject.GetComponent<Image>().color = Color.grey;
+
+            this.transform.GetComponentInChildren<Text>().text = visualItem.cost.ToString();
             visualInventory.AddItem(visualItem);
             visualProduct.SetActive(true);
             AddInventoryButton();
             if (visualItem.id == inv.activeVisual)
             {
-                visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController = visualItem.image as RuntimeAnimatorController;
+                visualProduct.gameObject.GetComponent<Animator>().runtimeAnimatorController =
+                    visualItem.image as RuntimeAnimatorController;
             }
         }
     }

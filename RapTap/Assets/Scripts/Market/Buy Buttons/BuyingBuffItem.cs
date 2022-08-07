@@ -22,7 +22,7 @@ public class BuyingBuffItem : MonoBehaviour
     private void Start()
     {
         aux = true;
-
+        this.transform.GetComponentInChildren<Text>().text = buffItem.cost.ToString();
         //teste serializacao
         aux = !inv.buffItems[buffItem.id];
         if(!aux)
