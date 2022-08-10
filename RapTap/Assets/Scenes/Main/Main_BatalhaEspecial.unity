@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c578166626695948a27c539dbcbacea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHype: 500
+  maxHype: 300
   hypeBar: {fileID: 831094118}
   playerAnimator: {fileID: 316438661}
   audioScript: {fileID: 667441834}
