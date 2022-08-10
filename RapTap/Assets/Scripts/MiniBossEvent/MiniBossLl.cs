@@ -10,9 +10,16 @@ namespace MiniBossEvent
         [SerializeField] public MiniBossHypeBar pandaHypeBar;
         [SerializeField] public MiniBossController bossController;
         [SerializeField] public MiniBossPandaController pandaController;
+        [SerializeField] public GameObject clickButton;
+        [SerializeField] private AudioManager audioScript;
 
         [SerializeField] public Animator transition;
         
+        void Start()
+        {
+            StartCoroutine(WarningSignEvent());
+        }
+
         void Update()
         {
             if (bossHypeBar.slider.value == bossController.maxHype)
@@ -43,6 +50,15 @@ namespace MiniBossEvent
             yield return new WaitForSeconds(1);
 
             SceneManager.LoadScene(levelIndex);
+        }
+
+        IEnumerator WarningSignEvent()
+        {
+            yield return new WaitForSeconds(6);
+
+            clickButton.SetActive(true);
+            bossController.enabled = true;
+            audioScript.PlayBgMusic();
         }
     }
 }

@@ -10,6 +10,11 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private AudioClip[] click_sfx;
 
+    public void PlayBgMusic ()
+    {
+        bgMusic.Play();
+    }
+
     public void PlayRapMusic ()
     {
         rapMusic.time = bgMusic.time % 16;

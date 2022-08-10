@@ -6,7 +6,6 @@ public class PlayerClickInteraction : MonoBehaviour
 {
     [SerializeField] private AudioManager audioScript;
 
-    [SerializeField] private GameObject crowd;
     [SerializeField] private GameObject enemy;
 
     [SerializeField] private GameObject musicalNote1;
@@ -20,7 +19,6 @@ public class PlayerClickInteraction : MonoBehaviour
 
     static public bool isRap;
     private int playerDisplacement;
-    private int crowdDisplacement;
     private int enemyHealth = 20;
     private Vector3 musicSpawnPos = new Vector3(620, 590, 0);
     private float runTime = 0;
@@ -74,11 +72,8 @@ public class PlayerClickInteraction : MonoBehaviour
             audioScript.PlayRapMusic();
         }
         playerDisplacement = Random.Range(2, 7);
-        crowdDisplacement = Random.Range(3, 6);
         transform.position = new Vector2(transform.position.x + playerDisplacement, transform.position.y + (playerDisplacement - 2));
         transform.localScale = transform.localScale / 1.02f;
-        crowd.transform.position = new Vector2(crowd.transform.position.x, crowd.transform.position.y + crowdDisplacement);
-        enemy.transform.position = new Vector2(enemy.transform.position.x, enemy.transform.position.y + crowdDisplacement);
         enemyHealth -= 1;
         switch(Random.Range(0, 4))
         {
@@ -101,8 +96,6 @@ public class PlayerClickInteraction : MonoBehaviour
     {
         transform.position = new Vector2(transform.position.x - playerDisplacement, transform.position.y - (playerDisplacement - 2));
         transform.localScale = transform.localScale * 1.02f;
-        crowd.transform.position = new Vector2(crowd.transform.position.x, crowd.transform.position.y - crowdDisplacement);
-        enemy.transform.position = new Vector2(enemy.transform.position.x, enemy.transform.position.y - crowdDisplacement);
 
         if (enemyHealth <= 0)
         {

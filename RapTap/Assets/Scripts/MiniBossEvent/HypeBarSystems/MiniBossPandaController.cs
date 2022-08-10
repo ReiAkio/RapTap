@@ -26,20 +26,23 @@ namespace MiniBossEvent
         {
             //timer += Time.deltaTime;
 
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                GetHype(10);
-                //clickTime = timer;
-                playerAnimator.SetBool("isRapping", true);
-                audioScript.PlayRapMusic();
-                audioScript.PlayClickSFX();
-            }
-
             //if(playerAnimator.GetBool("isRapping") && timer - clickTime > 1)
-            else if (playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+            if (playerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
                 playerAnimator.SetBool("isRapping", false);
                 audioScript.PauseRapMusic();
+            }
+        }
+
+        public void Clicked()
+        {
+            GetHype(10);
+            //clickTime = timer;
+            audioScript.PlayClickSFX();
+            if (playerAnimator.GetBool("isRapping") == false)
+            {
+                audioScript.PlayRapMusic();
+                playerAnimator.SetBool("isRapping", true);
             }
         }
 
