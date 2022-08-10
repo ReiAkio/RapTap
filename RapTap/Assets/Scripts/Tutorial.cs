@@ -12,6 +12,7 @@ public class Tutorial : MonoBehaviour
     public TypewriterEffect typewriterEffect;
     private bool click = false;
     private bool run = false;
+    private bool buffrun = false;
     private int i;
     private int option = 0;
 
@@ -58,16 +59,20 @@ public class Tutorial : MonoBehaviour
                 case 1:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     visualButton.interactable = true;
                     while (run == false)
                     {
                         yield return null;
                     }
-                    visualButton.interactable = false;
                     run = false;
                     break;
                 case 2:
+                    dialogueBox.SetActive(true);
+                    clickable.setScore(500);
                     yield return RunDialogue(dialogueObject);
+                    
+                    dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
                     while(run == false)
                     {
@@ -77,7 +82,9 @@ public class Tutorial : MonoBehaviour
                     run = false;
                     break;
                 case 3:
+                    dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     visualExitButton.interactable = true;
                     while(run == false)
                     {
@@ -87,9 +94,12 @@ public class Tutorial : MonoBehaviour
                     run = false;
                     break;
                 case 4:
+                    dialogueBox.SetActive(true);
+                    clickable.setScore(120);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     buffButton.interactable = true;
-                    while (run == false)
+                    while (buffrun == false)
                     {
                         yield return null;
                     }
@@ -97,7 +107,9 @@ public class Tutorial : MonoBehaviour
                     run = false;
                     break;
                 case 5:
+                    dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     buffBuyButton.interactable = true;
                     while (run == false)
                     {
@@ -107,7 +119,9 @@ public class Tutorial : MonoBehaviour
                     run = false;
                     break;
                 case 6:
+                    dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     buffExitButton.interactable = true;
                     while (run == false)
                     {
@@ -117,10 +131,12 @@ public class Tutorial : MonoBehaviour
                     run = false;
                     break;
                 case 7:
+                    dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    dialogueBox.SetActive(false);
                     clickButton.interactable = true;
                     dialogueBox.SetActive(false);
-                    while (clickable.getScore() < 25)
+                    while (clickable.getScore() < 20)
                     {
                         yield return null;
                     }
@@ -189,6 +205,12 @@ public class Tutorial : MonoBehaviour
     {
         option = 2;
     }
+
+    public void BuffRun()
+    {
+        buffrun = true;
+    }
+
     public void Skip()
     {
         StopAllCoroutines();
