@@ -7,6 +7,14 @@ public class EnableWarning : MonoBehaviour
     // Start is called before the first frame update
     public void ActivateWarning()
     {
-        transform.parent.gameObject.transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("EnableClaw", true);
+        gameObject.GetComponent<Animator>().SetBool("EnableClaw", false);
+        transform.parent.gameObject.transform.GetChild(2).gameObject.SetActive(true);
+        StartCoroutine(ActivateVersusSign());
+    }
+
+    IEnumerator ActivateVersusSign()
+    {
+        yield return new WaitForSeconds(1);
+        transform.parent.gameObject.transform.GetChild(1).gameObject.SetActive(true);
     }
 }

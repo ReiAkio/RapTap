@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class StartClaw : MonoBehaviour
 {
-    // Start is called before the first frame update
 
-    public void ActivateClaw()
+    public void RetrieveClaw()
     {
-        transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("EnableClaw",true);
+        transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("EnableClaw", true);
+        transform.GetChild(2).gameObject.GetComponent<Animator>().SetBool("Warning", true);
     }
 }

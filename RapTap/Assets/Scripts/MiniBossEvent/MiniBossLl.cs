@@ -54,7 +54,7 @@ namespace MiniBossEvent
 
         IEnumerator WarningSignEvent()
         {
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(7);
 
             clickButton.SetActive(true);
             bossController.enabled = true;
