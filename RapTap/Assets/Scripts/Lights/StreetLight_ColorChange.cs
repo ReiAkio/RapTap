@@ -32,7 +32,7 @@ public class StreetLight_ColorChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(WarningSignEvent());
     }
 
     // Update is called once per frame
@@ -45,4 +45,12 @@ public class StreetLight_ColorChange : MonoBehaviour
     {
         streetLightComp.color = colors[colNum];
     }
+
+    private IEnumerator WarningSignEvent()
+    {
+        yield return new WaitForSeconds(7);
+
+        gameObject.GetComponent<Animator>().enabled = true;
+    }
+
 }
