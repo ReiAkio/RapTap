@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Os atributos do produto a ser comprado
@@ -7,4 +8,5 @@ using UnityEngine;
 public class BuffItem : Product
 {
     public int buffClick;
+    public Sprite image;
 }

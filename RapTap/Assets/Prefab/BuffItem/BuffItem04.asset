@@ -16,3 +16,4 @@ MonoBehaviour:
   cost: 1600
   id: 4
   buffClick: 4
+  image: {fileID: 8648579510111992831, guid: 88793311a9b8d1c4c9d85c8fdc5d0f93, type: 3}

@@ -32,11 +32,10 @@ public class BuyingVisualItem : MonoBehaviour
     private void Start()
     {
         aux = !inv.visualItems[visualItem.id];
+        this.transform.GetComponentInChildren<Text>().text = visualItem.cost.ToString();
         if (!aux)
         {
             this.gameObject.GetComponent<Image>().color = Color.grey;
-
-            this.transform.GetComponentInChildren<Text>().text = visualItem.cost.ToString();
             visualInventory.AddItem(visualItem);
             visualProduct.SetActive(true);
             AddInventoryButton();
