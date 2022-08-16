@@ -11,11 +11,13 @@ public class SaveData
     public bool[] visualItems;
     public bool[] buffItems;
     public int countEventAlreadyHappen;
+    public bool tutorialIsDone;
 
 
 
-    public SaveData(Clickable clickData, InventorySerialization inv, MiniBossEvent.MainLl mainLl)
+    public SaveData(Clickable clickData, InventorySerialization inv, MiniBossEvent.MainLl mainLl, Tutorial tutorial)
     {
+        tutorialIsDone = tutorial.tutorialIsDone;
         countEventAlreadyHappen = mainLl.countEventAlreadyHappen;
         score = clickData.getScore();
         click = clickData.getClick();

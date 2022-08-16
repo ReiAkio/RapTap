@@ -90,4 +90,9 @@ public class DialogueUICutscene : MonoBehaviour
     {
         click = true;
     }
+
+    public void SkipCutscene()
+    {
+        SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+    }
 }

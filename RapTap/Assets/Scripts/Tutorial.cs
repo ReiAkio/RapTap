@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Tutorial : MonoBehaviour
 {
+    public bool tutorialIsDone;
     public string nextScene;
     public Clickable clickable;
     public TypewriterEffect typewriterEffect;
@@ -14,7 +15,6 @@ public class Tutorial : MonoBehaviour
     private bool run = false;
     private bool buffrun = false;
     private int i;
-    private int option = 0;
 
     public GameObject dialogueBox;
     public TMP_Text textLabel;
@@ -27,15 +27,19 @@ public class Tutorial : MonoBehaviour
     public Button buffBuyButton;
     public Button visualExitButton;
     public Button buffExitButton;
-    public GameObject OptionButtons;
+    public SaveButtonScript saveSystem;
 
     public void Awake()
     {
-        OptionButtons.SetActive(false);
+        tutorialIsDone = false;
     }
 
     public void Start()
     {
+        if (tutorialIsDone)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
         StartCoroutine(RunTutorial(dialogues));
     }
 
@@ -69,9 +73,8 @@ public class Tutorial : MonoBehaviour
                     break;
                 case 2:
                     dialogueBox.SetActive(true);
-                    clickable.setScore(500);
                     yield return RunDialogue(dialogueObject);
-                    
+                    clickable.setScore(500);
                     dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
                     while(run == false)
@@ -95,7 +98,6 @@ public class Tutorial : MonoBehaviour
                     break;
                 case 4:
                     dialogueBox.SetActive(true);
-                    clickable.setScore(120);
                     yield return RunDialogue(dialogueObject);
                     dialogueBox.SetActive(false);
                     buffButton.interactable = true;
@@ -109,6 +111,7 @@ public class Tutorial : MonoBehaviour
                 case 5:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
+                    clickable.setScore(120);
                     dialogueBox.SetActive(false);
                     buffBuyButton.interactable = true;
                     while (run == false)
@@ -150,18 +153,10 @@ public class Tutorial : MonoBehaviour
             }
             i++;
         }
-        OptionButtons.SetActive(true);
-        while (option == 0) 
+        if(i == 9)
         {
-            yield return null;
-        }
-        OptionButtons.SetActive(false);
-        if(option == 1)
-        {
-            SceneManager.LoadScene("Tutorial");
-        }
-        else if(option == 2)
-        {
+            tutorialIsDone = true;
+            saveSystem.OnClick();
             SceneManager.LoadScene(nextScene);
         }
         yield return null;
@@ -197,14 +192,6 @@ public class Tutorial : MonoBehaviour
     {
         run = true;
     }
-    public void Yes()
-    {
-        option = 1;
-    }
-    public void No()
-    {
-        option = 2;
-    }
 
     public void BuffRun()
     {
@@ -213,6 +200,8 @@ public class Tutorial : MonoBehaviour
 
     public void Skip()
     {
+        tutorialIsDone = true;
+        saveSystem.OnClick();
         StopAllCoroutines();
         SceneManager.LoadScene(nextScene);
     }
