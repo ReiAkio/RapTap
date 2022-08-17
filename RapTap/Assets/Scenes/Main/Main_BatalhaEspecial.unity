@@ -2116,6 +2116,10 @@ PrefabInstance:
       propertyPath: pandaController
       value: 
       objectReference: {fileID: 316438660}
+    - target: {fileID: 5690663947412380504, guid: a643e47f1ae64ed4aa779c90084edc5e, type: 3}
+      propertyPath: WarningSignAnimator
+      value: 
+      objectReference: {fileID: 1309282300}
     - target: {fileID: 5690663947412380505, guid: a643e47f1ae64ed4aa779c90084edc5e, type: 3}
       propertyPath: m_Name
       value: PreviousLevelLoader

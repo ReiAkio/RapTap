@@ -12,6 +12,7 @@ namespace MiniBossEvent
         [SerializeField] public MiniBossPandaController pandaController;
         [SerializeField] public GameObject clickButton;
         [SerializeField] private AudioManager audioScript;
+        [SerializeField] private Animator WarningSignAnimator;
 
         [SerializeField] public Animator transition;
         
@@ -24,12 +25,12 @@ namespace MiniBossEvent
         {
             if (bossHypeBar.slider.value >= bossController.maxHype && pandaHypeBar.slider.value < pandaController.maxHype)
             {
-                RestartBattle();
+                StartCoroutine(ResultsSignEvent(false));
             }
 
             if (pandaHypeBar.slider.value >= pandaController.maxHype && bossHypeBar.slider.value < bossController.maxHype)
             {
-                ReturnToMain();
+                StartCoroutine(ResultsSignEvent(true));
             }
         }
 
@@ -59,6 +60,26 @@ namespace MiniBossEvent
             clickButton.SetActive(true);
             bossController.enabled = true;
             audioScript.PlayBgMusic();
+        }
+
+        IEnumerator ResultsSignEvent(bool win)
+        {
+            clickButton.SetActive(false);
+            bossController.hypePps = 0;
+            //StopCoroutine(bossController.RaiseHypeBar());
+            bossController.enabled = false;
+            if (win)
+            {
+                WarningSignAnimator.SetBool("Won", true);
+                yield return new WaitForSeconds(3);
+                ReturnToMain();
+            }
+            else
+            {
+                WarningSignAnimator.SetBool("Lost", true);
+                yield return new WaitForSeconds(3);
+                RestartBattle();
+            }
         }
     }
 }

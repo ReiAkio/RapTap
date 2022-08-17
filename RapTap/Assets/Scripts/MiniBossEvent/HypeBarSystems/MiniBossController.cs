@@ -31,7 +31,7 @@ namespace MiniBossEvent
             }
         }
 
-        IEnumerator RaiseHypeBar()
+        public IEnumerator RaiseHypeBar()
         {
             while (true)
             {
