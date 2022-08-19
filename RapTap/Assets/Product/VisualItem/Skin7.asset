@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cc13fa0eb801884ab562c11a951df63, type: 3}
   m_Name: Skin7
   m_EditorClassIdentifier: 
-  name: 
-  cost: 0
-  id: 0
-  image: {fileID: 0}
-  trueImage: {fileID: 0}
+  name: Skin 7
+  cost: 6
+  id: 6
+  image: {fileID: 22100000, guid: b2c338fea70d44d468865ece8dc9cedf, type: 2}
+  trueImage: {fileID: 4146796783104837191, guid: 3ab9f57ccba42cf4b988fa736ea08a0b, type: 3}
