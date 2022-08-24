@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b02aa38966d05a40ace21bc2829e2c0, type: 3}
-  m_Name: BuffItem05
+  m_Name: BuffItem09
   m_EditorClassIdentifier: 
-  name: BuffItem05
-  cost: 3000
-  id: 5
-  buffClick: 5
-  image: {fileID: -7675644089356304295, guid: b4743abdd87599e47b8017f6231e6596, type: 3}
+  name: BuffItem09
+  cost: 25000
+  id: 9
+  buffClick: 30
+  image: {fileID: 2194525811875781913, guid: b4743abdd87599e47b8017f6231e6596, type: 3}
