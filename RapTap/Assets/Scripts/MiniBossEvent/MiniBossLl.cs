@@ -41,7 +41,7 @@ namespace MiniBossEvent
 
         private void ReturnToMain()
         {
-            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
         }
 
         IEnumerator LoadLevel(int levelIndex)

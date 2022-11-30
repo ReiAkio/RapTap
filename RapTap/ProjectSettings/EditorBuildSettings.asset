@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main/Main_Cutscene.unity
     guid: faac44ccac601994f9e89b768d1acc6d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main/Main_Tutorial.unity
+    guid: 5934813f6e13c1444af067a3fe7e13ef
   - enabled: 1
     path: Assets/Scenes/Main/Main_Game.unity
     guid: 89b777e2ae80647498fca7fb1610a160

@@ -519,7 +519,7 @@ MonoBehaviour:
   textLabel: {fileID: 1196971675}
   dialogueImage: {fileID: 617702146}
   dialogues: {fileID: 11400000, guid: 0114f6019b9505b45ae2d62382a80e6b, type: 2}
-  nextScene: Main_Game
+  nextScene: Main_Tutorial
   fadeImage: {fileID: 460461689}
   fadeTime: 0.5
 --- !u!114 &617702150
