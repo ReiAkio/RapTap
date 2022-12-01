@@ -74,7 +74,7 @@ public class Tutorial : MonoBehaviour
                 case 2:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
-                    clickable.setScore(500);
+                    clickable.setScore(5);
                     dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
                     while(run == false)
@@ -198,11 +198,4 @@ public class Tutorial : MonoBehaviour
         buffrun = true;
     }
 
-    public void Skip()
-    {
-        tutorialIsDone = true;
-        saveSystem.OnClick();
-        StopAllCoroutines();
-        SceneManager.LoadScene(nextScene);
-    }
 }
