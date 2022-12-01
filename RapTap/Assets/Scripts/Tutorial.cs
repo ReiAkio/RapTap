@@ -77,6 +77,7 @@ public class Tutorial : MonoBehaviour
                     clickable.setScore(20);
                     dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
+                    buffBuyButton.interactable = false;
                     while(run == false)
                     {
                         yield return null;
@@ -111,14 +112,14 @@ public class Tutorial : MonoBehaviour
                 case 5:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
-                    clickable.setScore(5);
+                    clickable.setScore(10);
                     dialogueBox.SetActive(false);
                     buffBuyButton.interactable = true;
                     while (run == false)
                     {
                         yield return null;
                     }
-                    buffBuyButton.interactable = false;
+                    
                     run = false;
                     break;
                 case 6:
@@ -130,7 +131,7 @@ public class Tutorial : MonoBehaviour
                     {
                         yield return null;
                     }
-                    buffExitButton.interactable = false;
+                    buffExitButton.interactable = true;
                     run = false;
                     break;
                 case 7:
