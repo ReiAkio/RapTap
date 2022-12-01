@@ -74,7 +74,7 @@ public class Tutorial : MonoBehaviour
                 case 2:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
-                    clickable.setScore(5);
+                    clickable.setScore(20);
                     dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
                     while(run == false)
@@ -111,7 +111,7 @@ public class Tutorial : MonoBehaviour
                 case 5:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
-                    clickable.setScore(120);
+                    clickable.setScore(5);
                     dialogueBox.SetActive(false);
                     buffBuyButton.interactable = true;
                     while (run == false)
@@ -139,7 +139,7 @@ public class Tutorial : MonoBehaviour
                     dialogueBox.SetActive(false);
                     clickButton.interactable = true;
                     dialogueBox.SetActive(false);
-                    while (clickable.getScore() < 20)
+                    while (clickable.getScore() < 10)
                     {
                         yield return null;
                     }
