@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: Scene 1
   m_EditorClassIdentifier: 
   dialogue:
-  - text 1
+  - 'After gaining her fame in the area, various people began to appear in Mya''s
+    performances.
+
+'
   dialogueImage: {fileID: 21300000, guid: 6ccf65562eaf2774dbd26b6d24d3983e, type: 3}

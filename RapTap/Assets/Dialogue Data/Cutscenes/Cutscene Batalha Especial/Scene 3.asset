@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Scene 3
   m_EditorClassIdentifier: 
   dialogue:
-  - text 3
-  - text 4
+  - '"Is this what you call rap?"'
+  - 'J-INU said while laughing at her performance.
+
+'
   dialogueImage: {fileID: 21300000, guid: dd2dff096b412104b9eeaa36f78f96e9, type: 3}

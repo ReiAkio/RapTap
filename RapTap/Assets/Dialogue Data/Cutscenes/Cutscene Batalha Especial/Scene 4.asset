@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Scene 4
   m_EditorClassIdentifier: 
   dialogue:
-  - text 5
-  - fight!
+  - Let's go! Show me what you're capable of
   dialogueImage: {fileID: 21300000, guid: 4bb12f830859f8f4095549d0b2756640, type: 3}
