@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BuffItem05
   m_EditorClassIdentifier: 
   name: BuffItem05
-  cost: 3000
+  cost: 5000
   id: 5
-  buffClick: 5
+  buffClick: 1
   image: {fileID: -7675644089356304295, guid: b4743abdd87599e47b8017f6231e6596, type: 3}

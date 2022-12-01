@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skin8
   m_EditorClassIdentifier: 
   name: Skin8
-  cost: 7
+  cost: 1000000
   id: 7
   image: {fileID: 22100000, guid: 38e0944b93c9d414295ae0cfd30db6e5, type: 2}
   trueImage: {fileID: 636803848307368112, guid: 3ab9f57ccba42cf4b988fa736ea08a0b, type: 3}

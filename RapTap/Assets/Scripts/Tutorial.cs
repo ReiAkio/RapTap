@@ -74,7 +74,7 @@ public class Tutorial : MonoBehaviour
                 case 2:
                     dialogueBox.SetActive(true);
                     yield return RunDialogue(dialogueObject);
-                    clickable.setScore(20);
+                    clickable.setScore(10);
                     dialogueBox.SetActive(false);
                     visualBuyButton.interactable = true;
                     buffBuyButton.interactable = false;

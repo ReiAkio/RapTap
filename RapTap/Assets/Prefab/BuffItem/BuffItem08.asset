@@ -15,5 +15,5 @@ MonoBehaviour:
   name: BuffItem08
   cost: 15000
   id: 8
-  buffClick: 15
+  buffClick: 1
   image: {fileID: -7916460593584603792, guid: b4743abdd87599e47b8017f6231e6596, type: 3}
