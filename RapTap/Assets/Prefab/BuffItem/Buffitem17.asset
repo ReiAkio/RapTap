@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Buffitem17
   m_EditorClassIdentifier: 
   name: Buffitem17
-  cost: 150000
+  cost: 105000
   id: 17
-  buffClick: 72
+  buffClick: 108
   image: {fileID: -439741803183576855, guid: fbe5c8e73b5084e4a9db1494866f3f28, type: 3}
