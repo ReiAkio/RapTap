@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: TutorialEndEnd
   m_EditorClassIdentifier: 
   dialogue:
-  - Obrigado por escolher RapTap!
-  - Gostaria de fazer o tutorial novamente?
+  - "\rNow let's get started"
   dialogueImage: {fileID: 0}

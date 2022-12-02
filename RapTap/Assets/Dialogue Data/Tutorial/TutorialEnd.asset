@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: TutorialEnd
   m_EditorClassIdentifier: 
   dialogue:
-  - Hora de testar o seu novo equipamento!
-  - "Fa\xE7a mais 20 pontos, vai ser muito mais r\xE1pido que antes"
+  - 'Time to test your new buff!
+
+'
+  - 'Make 20 more points, it will be much faster than before
+
+'
   dialogueImage: {fileID: 0}

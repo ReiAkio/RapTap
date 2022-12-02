@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: TutorialBuyVision
   m_EditorClassIdentifier: 
   dialogue:
-  - "Cada item tem seu pre\xE7o"
-  - "Compre seu primeiro item cosm\xE9tico"
+  - 'Each item has its price.
+
+'
+  - 'Buy your first cosmetic item
+
+'
   dialogueImage: {fileID: 0}

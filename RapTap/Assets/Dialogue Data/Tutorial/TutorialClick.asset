@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: TutorialClick
   m_EditorClassIdentifier: 
   dialogue:
-  - "Neste tutorial voc\xEA aprender\xE1 todas as fun\xE7\xF5es b\xE1sicas do jogo
-    RapTap, para continuar, pressione a caixa de texto."
-  - "Primeiro come\xE7aremos com o b\xE1sico"
-  - "Clique em qualquer parte desocupada da tela para obter pontos, continuaremos
-    assim que voc\xEA obter 20 pontos."
+  - In this tutorial you will learn all the basic functions of the RapTap game, to
+    continue press this text box.
+  - We'll start with the basics
+  - 'Click on any unoccupied part of the screen to get points, we''ll continue as
+    soon as you get 20 points.
+
+'
   dialogueImage: {fileID: 0}

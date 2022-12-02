@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: TutorialVisualItem
   m_EditorClassIdentifier: 
   dialogue:
-  - "Com pontos \xE9 poss\xEDvel comprar Itens"
-  - "Pressione o bot\xE3o Visual para abrir a loja de cosm\xE9ticos."
+  - 'With points you can buy items
+
+'
+  - "\rPress the Visual button to open the cosmetic shop."
   dialogueImage: {fileID: 0}

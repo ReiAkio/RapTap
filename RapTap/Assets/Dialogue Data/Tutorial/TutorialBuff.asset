@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: TutorialBuff
   m_EditorClassIdentifier: 
   dialogue:
-  - "Al\xE9m dos cosm\xE9ticos, tamb\xE9m pode comprar equipamentos"
-  - "Esses equipamentos aumentar\xE3o sua performance no rap."
-  - "Para compr\xE1-los, pressione o bot\xE3o Buff."
+  - 'In addition to cosmetics, you can also buy equipment
+
+'
+  - 'These buffs will boost your rap performance.
+
+'
+  - 'To buy them, press the Buff button.
+
+'
   dialogueImage: {fileID: 0}

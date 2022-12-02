@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: TutorialBuyBuff
   m_EditorClassIdentifier: 
   dialogue:
-  - Compre o primeiro equipamento para melhorar seu personagem.
+  - 'Buy the buff equipment to improve your character.
+
+'
   dialogueImage: {fileID: 0}

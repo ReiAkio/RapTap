@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: TutorialExit
   m_EditorClassIdentifier: 
   dialogue:
-  - "Agora que seu personagem est\xE1 de visual novo, clique em Exit para fechar
-    a loja de cosm\xE9ticos."
+  - 'Now that your character has a new look, click Exit(X) button to close the cosmetic
+    shop.
+
+'
   dialogueImage: {fileID: 0}

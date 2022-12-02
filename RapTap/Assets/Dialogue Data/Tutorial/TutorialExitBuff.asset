@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: TutorialExitBuff
   m_EditorClassIdentifier: 
   dialogue:
-  - "Para fechar a loja de equipamentos \xE9 s\xF3 pressionar o mesmo bot\xE3o Exit."
+  - 'To close the equipment shop just press the same Exit button.
+
+'
   dialogueImage: {fileID: 0}
