@@ -140,7 +140,7 @@ public class Tutorial : MonoBehaviour
                     dialogueBox.SetActive(false);
                     clickButton.interactable = true;
                     dialogueBox.SetActive(false);
-                    while (clickable.getScore() < 10)
+                    while (clickable.getScore() < 20)
                     {
                         yield return null;
                     }
