@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Buffitem12
   cost: 50000
   id: 12
-  buffClick: 1
+  buffClick: 7
   image: {fileID: -2529126327589629007, guid: fbe5c8e73b5084e4a9db1494866f3f28, type: 3}

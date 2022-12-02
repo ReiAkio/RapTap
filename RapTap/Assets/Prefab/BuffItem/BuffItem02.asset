@@ -15,5 +15,5 @@ MonoBehaviour:
   name: buff2
   cost: 300
   id: 2
-  buffClick: 1
+  buffClick: 2
   image: {fileID: 4611844147927743694, guid: b4743abdd87599e47b8017f6231e6596, type: 3}
